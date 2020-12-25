@@ -9,6 +9,7 @@ Date: 24.12.2020;
 Description: Reset+ this is the merged css styles from Eric Meyer "reset.css" and
 "normalize.css" styles from https://necolas.github.io/normalize.css 
 */
+
 ==================================================================================
 
 /* reset+ .begin/..*/
@@ -43,9 +44,37 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2em; /* 32px */
   margin: 0.67em 0;
-  font-weight: normal;	
+}
+
+h2 {
+  font-size: 1.5em; /* 24px */
+}
+
+h3 {
+  font-size: 1.17em; /* 19px */
+}
+
+h4 {
+  font-size: 1em; /* 16px */
+}
+
+h5 {
+  font-size: .83em;	/* 14px */
+}
+	
+h6 {
+  font-size: .75em; /* 13px */
+}
+
+p {
+  font-size: 1em; /* 16px */
+}
+
+a {
+  font-size: 1em; /* 16px */
+  background-color: transparent;
 }
 
 ol { 
@@ -67,10 +96,6 @@ hr {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-a {
-  background-color: transparent;
 }
 
 abbr[title] {
@@ -215,5 +240,4 @@ template {
   display: none;
 }
 /* reset+ ../end */
-
 
