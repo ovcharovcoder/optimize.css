@@ -21,11 +21,11 @@ strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, fo
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 html {
@@ -34,11 +34,11 @@ html {
 }
 
 main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1.2;
+  line-height: 1.2;
 }
 
 h1 {
@@ -48,13 +48,13 @@ h1 {
 }
 
 ol { 
-	padding-left: 1.4em;
-	list-style: decimal;
+  padding-left: 1.4em;
+  list-style: decimal;
 }
 
 ul {
-	padding-left: 1.4em;
-	list-style: square;
+  padding-left: 1.4em;
+  list-style: square;
 }
 
 hr {
@@ -64,8 +64,8 @@ hr {
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 a {
@@ -214,3 +214,5 @@ template {
   display: none;
 }
 /* reset+ ../end */
+
+
