@@ -48,32 +48,7 @@ h1 {
   margin: 0.67em 0;
 }
 
-h2 {
-  font-size: 1.5em; /* 24px */
-}
-
-h3 {
-  font-size: 1.17em; /* 19px */
-}
-
-h4 {
-  font-size: 1em; /* 16px */
-}
-
-h5 {
-  font-size: .83em;	/* 14px */
-}
-	
-h6 {
-  font-size: .75em; /* 13px */
-}
-
-p {
-  font-size: 1em; /* 16px */
-}
-
 a {
-  font-size: 1em; /* 16px */
   background-color: transparent;
 }
 
