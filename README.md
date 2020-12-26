@@ -9,4 +9,4 @@
   <li>License: GPL.</li>
 </ul>  
 
-<code><link rel="stylesheet" href="reset+.css"></code>
+<pre><link rel="stylesheet" href="reset+.css"></pre>
