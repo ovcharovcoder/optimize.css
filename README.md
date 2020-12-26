@@ -10,7 +10,9 @@
   <li>License: GPL.</li>
 </ul>  
 
-<code>Example of connecting to a project in the "index.html" file: 
-&lt;link rel="stylesheet" href="css/reset+.css"&gt;</code>
+<p>
+  Example of connecting to a project in the "index.html" file: 
+  <code>&lt;link rel="stylesheet" href="css/reset+.css"&gt;</code>
+</p>  
 
 <p><strong>I use it myself and recommend it to you ! </strong></p>
