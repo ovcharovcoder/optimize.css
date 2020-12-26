@@ -1,50 +1,62 @@
-/* Reset+ v.01_24.12.2020 */
+/* Reset+.css v.2 | Build 26.12.2020 */
 
-/* Author of this file: Andrey Ovcharov;
+/* 
+Author: Andrey Ovcharov;
 E-mail: datoshcode@gmail.com;
-Date: 24.12.2020;
+Build date: 26.12.2020;
+License: GPL.
+=======================================================================
 */
-
-/*
-Description: Reset+ this is the merged css styles from Eric Meyer "reset.css" and
-"normalize.css" styles from https://necolas.github.io/normalize.css 
-*/
-
-==================================================================================
 
 /* reset+ .begin/..*/
-* {
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;	
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, 
 acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, 
-strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
+  font: inherit;
   font-size: 100%;
   vertical-align: baseline;
-}
-
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
 }
 
 main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  line-height: 1.2;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+article > * + * {
+  margin-top: 1em;
 }
 
 h1 {
-  font-size: 2em; /* 32px */
+  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -52,12 +64,18 @@ a {
   background-color: transparent;
 }
 
-ol { 
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+ol,
+ol[class] { 
   padding-left: 1.4em;
   list-style: decimal;
 }
 
-ul {
+ul,
+ul[class] {
   padding-left: 1.4em;
   list-style: square;
 }
@@ -73,19 +91,30 @@ table {
   border-spacing: 0;
 }
 
+caption, th, td {
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
 abbr[title] {
   border-bottom: none; 
   text-decoration: underline;
   text-decoration: underline dotted;
 }
 
-pre {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1em;
+del {
+    text-decoration: line-through;
 }
 
-code, kbd, samp {
-  font-family: "Courier New", Courier, monospace;
+pre, code, kbd, samp, tt {
+  font-family: "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 1em;
 }
 
@@ -113,7 +142,19 @@ sup {
 }
 
 img {
-  border-style: none;
+  max-width: 100%;
+  display: block;
+  border: 0;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+content: '';
+content: none;
 }
 
 button, input, optgroup, select, textarea {
@@ -155,6 +196,7 @@ button:-moz-focusring,
 
 fieldset {
   padding: 0.35em 0.75em 0.625em;
+  border: 0;
 }
 
 legend {
@@ -164,6 +206,13 @@ legend {
   max-width: 100%;
   padding: 0;
   white-space: normal;
+}
+
+mark {
+  background-color:rgb(255, 255, 153);
+  color:rgb(0, 0, 0);
+  font-style:italic;
+  font-weight:bold;
 }
 
 progress {
@@ -214,5 +263,5 @@ template {
 [hidden] {
   display: none;
 }
-/* reset+ ../end */
 
+/* reset+ ../end */
