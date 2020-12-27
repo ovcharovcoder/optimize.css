@@ -116,10 +116,6 @@ pre, code, kbd, samp, tt {
   font-size: 1em;
 }
 
-strong {
-  font-weight: bolder;
-}
-
 small {
   font-size: 80%;
 }
@@ -207,10 +203,10 @@ legend {
 }
 
 mark {
-  background-color:rgb(255, 255, 153);
-  color:rgb(0, 0, 0);
-  font-style:italic;
-  font-weight:bold;
+  background-color: rgb(255, 255, 153);
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-weight: bold;
 }
 
 progress {
