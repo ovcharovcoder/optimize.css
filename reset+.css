@@ -13,10 +13,14 @@ License: GPL.
 
 /* reset+ .begin/..*/
 
+:root {
+box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;	
+  box-sizing: inherit;	
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, 
