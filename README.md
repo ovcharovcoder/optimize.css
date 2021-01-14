@@ -3,7 +3,7 @@
 <h2>Reset+ v.2 | Build 26.12.2020 </h2>
 
 <ul>
-  <li>Description: Reset css browser styles;</li>
+  <li>Description: Resetting and normalizing browser CSS styles;</li>
   <li>Author: Andrey Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 26.12.2020;</li>
