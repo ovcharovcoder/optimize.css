@@ -17,3 +17,5 @@
 </p>  
 
 <p><strong>I use it myself and recommend it to you ! </strong></p>
+
+<img src="reset+logo.png">
