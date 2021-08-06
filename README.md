@@ -18,4 +18,4 @@
 
 <p><strong>I use it myself and recommend it to you ! </strong></p>
 
-<img  src="reset+.jpg" alt="logo">
+<img  src="reset+logo.jpg" alt="logo">
