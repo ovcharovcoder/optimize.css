@@ -1,17 +1,16 @@
-/* Reset+ v.2 | Build 26.12.2020 */
+/* Reset+ v.3 | Build 06.08.2021 */
 
 /* 
-Author: Andrey Ovcharov;
+Author: Andrei Ovcharov;
 E-mail: datoshcode@gmail.com;
 File name: reset+.css
-Build date: 26.12.2020;
-Example of connecting to a project in the "index.html" file: 
-<link rel="stylesheet" href="css/reset+.css">
-License: GPL.
+Build date: 06.08.2021;
+
+License: GNU/GPL.
 =======================================================================
 */
 
-/* reset+ .begin/..*/
+/* reset+ .begin-code/..*/
 
 :root {
 box-sizing: border-box;
@@ -64,22 +63,11 @@ article > * + * {
 
 a {
   background-color: transparent;
+  font-size: inherit;
 }
 
 a:not([class]) {
   text-decoration-skip-ink: auto;
-}
-
-ol,
-ol[class] { 
-  padding-left: 1.4em;
-  list-style: decimal;
-}
-
-ul,
-ul[class] {
-  padding-left: 1.4em;
-  list-style: square;
 }
 
 hr {
@@ -143,16 +131,6 @@ img {
   max-width: 100%;
   display: block;
   border: 0;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote::before, blockquote::after,
-q::before, q::after {
-  content: '';
-  content: none;
 }
 
 button, input, optgroup, select, textarea {
@@ -253,13 +231,4 @@ details {
 summary {
   display: list-item;
 }
-
-template {
-  display: none;
-}
-
-[hidden] {
-  display: none;
-}
-
-/* reset+ ../end */
+/* reset+ ../end-code */
