@@ -1,13 +1,12 @@
 # reset_plus_style
+<h2>Reset+ v.3 | Build 06.08.2021 </h2>
 
 <style>
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;}
-</style>  
-
-<h2>Reset+ v.3 | Build 06.08.2021 </h2>
+</style> 
 
 <ul>
   <li>Description: Resetting and normalizing browser CSS styles;</li>
