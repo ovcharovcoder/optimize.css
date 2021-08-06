@@ -6,11 +6,11 @@ E-mail: datoshcode@gmail.com;
 File name: reset+.css
 Build date: 06.08.2021;
 
-License: GNU/GPL.
+License: GPL.
 =======================================================================
 */
 
-/* reset+ .begin-code/..*/
+/* reset+ .begin/..*/
 
 :root {
 box-sizing: border-box;
@@ -73,6 +73,10 @@ a:not([class]) {
 li a {
   text-decoration: none;
   color: #000000;
+}
+
+menu li {
+  list-style-type: none;
 }
 
 hr {
@@ -236,4 +240,4 @@ details {
 summary {
   display: list-item;
 }
-/* reset+ ../end-code */
+/* reset+ ../end */
