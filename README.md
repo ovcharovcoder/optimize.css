@@ -18,4 +18,7 @@
 
 <p><strong>I use it myself and recommend it to you ! </strong></p>
 
-<img style="text-align: center;" src="reset+.jpg" alt="logo">
+<img style="display: block;
+    margin-left: auto;
+    margin-right: auto;" 
+src="reset+.jpg" alt="logo">
