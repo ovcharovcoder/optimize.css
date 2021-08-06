@@ -1,5 +1,12 @@
 # reset_plus_style
 
+<style>
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+</style>  
+
 <h2>Reset+ v.3 | Build 06.08.2021 </h2>
 
 <ul>
@@ -18,7 +25,4 @@
 
 <p><strong>I use it myself and recommend it to you ! </strong></p>
 
-<img style="display: block;
-    margin-left: auto;
-    margin-right: auto;" 
-src="reset+.jpg" alt="logo">
+<img  src="reset+.jpg" alt="logo">
