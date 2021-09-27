@@ -1,31 +1,104 @@
-/* Reset+ v.3 | Build 06.08.2021 */
+/* Reset+ v.3 | Build 27.09.2021 */
 
 /* 
 Author: Andrei Ovcharov;
 E-mail: datoshcode@gmail.com;
 File name: reset+.css
-Build date: 06.08.2021;
+Build date: 27.09.2021;
 
 License: GPL.
 =======================================================================
 */
 
-/* reset+ .begin/..*/
-
 :root {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;	
+  box-sizing: inherit;
 }
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, 
-acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, 
-strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -34,16 +107,42 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+main,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
-address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, var {
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th,
+var {
   font-weight: normal;
   font-style: normal;
 }
 
-input, select {
+input,
+select {
   vertical-align: middle;
 }
 
@@ -64,6 +163,7 @@ article > * + * {
 a {
   background-color: transparent;
   font-size: inherit;
+  display: inline-block;
 }
 
 a:not([class]) {
@@ -75,8 +175,14 @@ li a {
   color: #000000;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 nav li {
-  list-style-type: none;
+  display: inline-block;
 }
 
 hr {
@@ -90,7 +196,9 @@ table {
   border-spacing: 0;
 }
 
-caption, th, td {
+caption,
+th,
+td {
   text-align: left;
   vertical-align: top;
   font-weight: normal;
@@ -103,17 +211,22 @@ acronym {
 }
 
 abbr[title] {
-  border-bottom: none; 
+  border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-pre, code, kbd, samp, tt {
-  font-family: "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: "Andale Mono", "Lucida Console", "Courier New", Courier,
+    monospace;
   font-size: 1em;
 }
 
@@ -121,7 +234,8 @@ small {
   font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -142,18 +256,24 @@ img {
   border: 0;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
 }
 
-button, input {
+button,
+input {
   overflow: visible;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
 }
 
@@ -240,4 +360,3 @@ details {
 summary {
   display: list-item;
 }
-/* reset+ ../end */
