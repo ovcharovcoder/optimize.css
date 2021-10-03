@@ -12,6 +12,10 @@
 </ul>  
 
 <p>
+The archive contains the usual version of the reset+.css and a compressed version - reset+.min.css
+</p>
+
+<p>
   Example of connecting to a project in the "index.html" file: 
   <code>&lt;link rel="stylesheet" href="css/reset+.css"&gt;</code>
 </p>  
