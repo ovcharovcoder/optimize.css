@@ -247,7 +247,6 @@ sup {
 }
 
 img {
-  max-width: 100%;
   display: block;
   border: 0;
 }
@@ -356,3 +355,5 @@ details {
 summary {
   display: list-item;
 }
+
+
