@@ -1,6 +1,4 @@
-# reset_plus_style
-
-<h2>Reset+ </h2>
+<h1>Reset+ </h1>
 
 <ul>
   <li>Description: Resetting and normalizing browser CSS styles;</li>
