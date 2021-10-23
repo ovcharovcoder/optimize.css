@@ -1,6 +1,6 @@
 # reset_plus_style
 
-<h2>Reset+ v.3 | Build 27.09.2021 </h2>
+<h2>Reset+ </h2>
 
 <ul>
   <li>Description: Resetting and normalizing browser CSS styles;</li>
