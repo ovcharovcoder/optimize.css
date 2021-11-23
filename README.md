@@ -4,7 +4,7 @@
   <li>Description: Resetting and normalizing browser CSS styles;</li>
   <li>Author: Andrei Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Build date: 27.09.2021;</li>
+  <li>Build date: 23.11.2021;</li>
   <li>File name: reset+.css</li>
   <li>License: GNU/GPL.</li>
 </ul>  
