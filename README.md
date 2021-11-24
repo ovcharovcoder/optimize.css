@@ -13,7 +13,12 @@
 </p>
 
 <p>
-The archive (reset+.zip) contains the usual version of the reset+.css and a compressed version - reset+.min.css
+  Provides the ability to download RESET+ in two versions: 
+  <ol>
+    <li>The usual version (reset+.css), in which the entire file code is visualized;</li>
+    <li>Compressed (minimized) version (reset+.min.css), which has the smallest file size</li>
+    </ol>
+  Also, both versions can be downloaded as an archive (reset+.zip). 
 </p>
 <p>
   I recommend using a compressed version
@@ -44,10 +49,10 @@ The archive (reset+.zip) contains the usual version of the reset+.css and a comp
 <p>
   Предоставляется возможность загрузить Reset+ в двух вариантах: 
   <ol>
-    <li>обычна версия (reset+.css), в которой наглядно виден весь код файла;</li>
+    <li>обычная версия (reset+.css), в которой наглядно виден весь код файла;</li>
     <li>Cжатая (минимизированная) версия (reset+.min.css), которая имеет наименьший размер файла</li>
     </ol>
-  Также, обе версии можно загразить в качестве архива (reset+.zip). 
+  Также, обе версии можно загрузить в качестве архива (reset+.zip). 
 </p>
 <p>
   Рекомендую использовать сжатую версию: reset+.min.css
