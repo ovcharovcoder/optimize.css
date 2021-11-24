@@ -8,16 +8,19 @@
   <li>File name: reset+.css</li>
   <li>License: GNU/GPL.</li>
 </ul>  
+<p>
+  Complies with the requirements CSS3 and HTML5 
+</p>
 
 <p>
 The archive contains the usual version of the reset+.css and a compressed version - reset+.min.css
 </p>
 <p>
-  Complies with the requirements CSS3 and HTML5
+  I recommend using a compressed version
 </p>
 <p>
   Example of connecting to a project in the "index.html" file: 
-  <code>&lt;link rel="stylesheet" href="css/reset+.css"&gt;</code>
+  <code>&lt;link rel="stylesheet" href="css/reset+.min.css"&gt;</code>
 </p>  
 
 <p><strong>I use it myself and recommend it to you ! </strong></p>
