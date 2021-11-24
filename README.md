@@ -30,7 +30,7 @@ The archive (reset+.zip) contains the usual version of the reset+.css and a comp
 <h1>Reset+ (ru) </h1>
 
 <ul>
-  <li>Описание: Сброс и модификация CSS стилей для веб-браузера;</li>
+  <li>Описание: Reset+ - разумное сочетание сброса и модификации CSS стилей для веб-браузера, необходимое веб-разработчику при создании веб-сайта любой сложности;</li>
   <li>Автор: Андрей Овчаров;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Дата сборки: 24.11.2021;</li>
