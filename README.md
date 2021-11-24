@@ -5,7 +5,7 @@
   <li>Author: Andrei Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 24.11.2021;</li>
-  <li>File name: reset+.css</li>
+  <li>File name: reset+.css;</li>
   <li>License: GNU/GPL.</li>
 </ul>  
 <p>
@@ -39,7 +39,7 @@
   <li>Автор: Андрей Овчаров;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Дата сборки: 24.11.2021;</li>
-  <li>Нименование файла: reset+.css</li>
+  <li>Нименование файла: reset+.css;</li>
   <li>Лицензия: GNU/GPL.</li>
 </ul>  
 <p>
