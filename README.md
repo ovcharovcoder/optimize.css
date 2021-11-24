@@ -1,7 +1,7 @@
 <h1>Reset+ (en) </h1>
 
 <ul>
-  <li>Description: RESET + is a reasonable combination of reset and modification of CSS styles for a web browser necessary for a web developer when creating a website of any complexity;</li>
+  <li>Description: Reset+ is a reasonable combination of reset and modification of CSS styles for a web browser necessary for a web developer when creating a website of any complexity;</li>
   <li>Author: Andrei Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 24.11.2021;</li>
