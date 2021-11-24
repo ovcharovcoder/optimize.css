@@ -64,4 +64,4 @@
 
 <p><strong>Рекомендую то, что использую сам ! </strong></p>
 
-<img  src="reset+logo.jpg" alt="logo">
+<img  src="reset+.jpg" alt="logo">
