@@ -13,7 +13,7 @@
 </p>
 
 <p>
-The archive contains the usual version of the reset+.css and a compressed version - reset+.min.css
+The archive (reset+.zip) contains the usual version of the reset+.css and a compressed version - reset+.min.css
 </p>
 <p>
   I recommend using a compressed version
@@ -42,7 +42,7 @@ The archive contains the usual version of the reset+.css and a compressed versio
 </p>
 
 <p>
-Архив содержит обычную (reset+.css) и сжатую (reset+.min.css) версии файлов стилей.
+Архив (reset+.zip) содержит обычную (reset+.css) и сжатую (reset+.min.css) версии файлов стилей.
 </p>
 <p>
   Рекомендую использовать сжатую версию: reset+.min.css
