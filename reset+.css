@@ -4,8 +4,8 @@
 Author: Andrei Ovcharov;
 E-mail: datoshcode@gmail.com;
 File name: reset+.css
-Build date: 23.11.2021;
-
+Build date: 24.11.2021;
+Complies with the requirements CSS3 and HTML5
 License: GPL.
 =======================================================================
 */
@@ -20,85 +20,12 @@ License: GPL.
   box-sizing: inherit;
 }
 
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, 
+strong, sub, sup, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, 
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -107,35 +34,12 @@ video {
   vertical-align: baseline;
 }
 
-main,
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+main, article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
   display: block;
 }
 
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-th,
+address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, 
 var {
   font-weight: normal;
   font-style: normal;
@@ -178,8 +82,6 @@ a:not([class]) {
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 hr {
@@ -193,16 +95,13 @@ table {
   border-spacing: 0;
 }
 
-caption,
-th,
-td {
+caption, th, td {
   text-align: left;
   vertical-align: top;
   font-weight: normal;
 }
 
-abbr,
-acronym {
+abbr {
   border: 0;
   font-variant: normal;
 }
@@ -217,11 +116,7 @@ del {
   text-decoration: line-through;
 }
 
-pre,
-code,
-kbd,
-samp,
-tt {
+pre, code, kbd, samp {
   font-family: "Andale Mono", "Lucida Console", "Courier New", Courier,
     monospace;
   font-size: 1em;
@@ -231,8 +126,7 @@ small {
   font-size: 80%;
 }
 
-sub,
-sup {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -254,11 +148,7 @@ img, svg {
   border: 0;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button, input, optgroup, select, textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: 1.15;
@@ -269,9 +159,12 @@ input::-ms-clear {
   display: none;
 }
 
-button,
-input {
+button, input {
   overflow: visible;
+}
+
+button, select {
+  text-transform: none;
 }
 
 button, input[type="submit"] {
@@ -280,17 +173,11 @@ button, input[type="submit"] {
   background-color: transparent;
   background: none;
   cursor: pointer;
-
 }
 
 input:focus, input:active,
 button:focus, button:active {
   outline: none;
-}
-
-button,
-select {
-  text-transform: none;
 }
 
 button,
