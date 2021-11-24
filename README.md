@@ -9,7 +9,7 @@
   <li>License: GNU/GPL.</li>
 </ul>  
 <p>
-  Complies with the requirements CSS3 and HTML5 
+  Complies with the requirements CSS3 and HTML5 !
 </p>
 
 <p>
@@ -38,11 +38,13 @@ The archive (reset+.zip) contains the usual version of the reset+.css and a comp
   <li>Лицензия: GNU/GPL.</li>
 </ul>  
 <p>
-  Соответствует стандартам CSS3 и HTML5 
+  Соответствует стандартам CSS3 и HTML5 !
 </p>
 
 <p>
-Архив (reset+.zip) содержит обычную (reset+.css) и сжатую (reset+.min.css) версии файлов стилей.
+  Предоставляется возможность загрузить файлы Reset+ в двух вариантах: 1. обычна версия (reset+.css), в которой наглядно виден весь код файла;
+  2.сжатая версия (reset+.min.css), которая имеет наименьший размер файла.<br> 
+  А также, обе версии можно загразить в качестве архива (reset+.zip). 
 </p>
 <p>
   Рекомендую использовать сжатую версию: reset+.min.css
