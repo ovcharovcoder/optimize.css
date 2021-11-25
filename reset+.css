@@ -165,6 +165,7 @@ button, input {
 
 button, select {
   text-transform: none;
+  border: none;
 }
 
 button, input[type="submit"] {
