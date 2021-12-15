@@ -174,11 +174,6 @@ button, input[type="submit"] {
   cursor: pointer;
 }
 
-input:focus, input:active,
-button:focus, button:active {
-  outline: none;
-}
-
 button,
 [type="button"],
 [type="reset"],
