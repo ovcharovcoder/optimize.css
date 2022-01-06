@@ -20,6 +20,8 @@ License: GPL.
   box-sizing: inherit;
 }
 
+
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, 
 strong, sub, sup, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, 
@@ -33,11 +35,17 @@ ruby, section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+html,
+body {
+ height: 100%; 
+ position: relative;
+ overflow-x: hidden;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, nav, section {
 	display: block;
-  
 }
 
 address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, 
