@@ -4,7 +4,7 @@
   <li>Description: Reset+ is a reasonable combination of reset and modification of CSS styles for a web browser necessary for a web developer when creating a website of any complexity;</li>
   <li>Author: Andrei Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Build date: 24.11.2021;</li>
+  <li>Build date: 10.01.2022;</li>
   <li>File name: reset+.css;</li>
   <li>License: GNU/GPL.</li>
 </ul>  
@@ -38,7 +38,7 @@
   <li>Описание: Reset+ - разумное сочетание сброса и модификации CSS стилей для веб-браузера, необходимое веб-разработчику при создании веб-сайта любой сложности;</li>
   <li>Автор: Андрей Овчаров;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Дата сборки: 24.11.2021;</li>
+  <li>Дата сборки: 10.01.2022;</li>
   <li>Нименование файла: reset+.css;</li>
   <li>Лицензия: GNU/GPL.</li>
 </ul>  
