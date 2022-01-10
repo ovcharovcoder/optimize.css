@@ -1,13 +1,10 @@
-/* Reset+  */
-
-/* 
+/* Reset+
 Author: Andrei Ovcharov;
 E-mail: datoshcode@gmail.com;
 File name: reset+.css
-Build date: 24.11.2021;
-Complies with the requirements CSS3 and HTML5
+Build date: 10.01.2022;
+Complies with the requirements CSS3 and HTML5;
 License: GPL.
-=======================================================================
 */
 
 :root {
@@ -29,6 +26,7 @@ ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
+  outline:0;
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -62,6 +60,8 @@ select {
 }
 
 html {
+  /* Base font size */
+  font-size: 16px;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -87,14 +87,18 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-nav li {
-  list-style: none;
+nav ul {
+    list-style: none;
 }
 
+/* change border colour to suit your needs */
 hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
+  display: block;
+  height: 1px;
+  border: 0;  
+  border-top: 1px solid #ccc;
+  margin: 16px 0;
+  padding: 0;
 }
 
 table {
@@ -119,13 +123,22 @@ abbr[title] {
   text-decoration: underline dotted;
 }
 
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
 del {
   text-decoration: line-through;
 }
 
 pre, code, kbd, samp {
-  font-family: "Andale Mono", "Lucida Console", "Courier New", Courier,
-    monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1em;
 }
 
@@ -221,11 +234,19 @@ legend {
   white-space: normal;
 }
 
+/* change colours to suit your needs */
 mark {
-  background-color: rgb(255, 255, 153);
-  color: rgb(0, 0, 0);
+  background-color: #ff99;
+  color: #000;
   font-style: italic;
   font-weight: bold;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
 }
 
 progress {
