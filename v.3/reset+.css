@@ -1,0 +1,291 @@
+/* Reset+
+Author: Andrei Ovcharov;
+E-mail: datoshcode@gmail.com;
+File name: reset+.css
+Build date: 10.01.2022;
+Complies with the requirements CSS3 and HTML5;
+License: GPL.
+*/
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, 
+strong, sub, sup, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, 
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, embed, figure, figcaption, footer, header, hgroup, nav, output,
+ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline:0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html,
+body {
+ height: 100%; 
+ position: relative;
+ overflow-x: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, nav, section {
+	display: block;
+}
+
+address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, 
+var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  /* Base font size */
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+a {
+  background-color: transparent;
+  font-size: inherit;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;  
+  border-top: 1px solid #ccc;
+  margin: 16px 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+abbr {
+  border: 0;
+  font-variant: normal;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+pre, code, kbd, samp {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img, svg {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.15;
+  margin: 0;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+  border: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+label {
+  cursor: pointer;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+  border: 0;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: block;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff99;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
