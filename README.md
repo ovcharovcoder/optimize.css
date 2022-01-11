@@ -12,6 +12,10 @@
 </p>
 
 <p>
+  The assembly contains "box-sizing: border-box;"
+</p>
+
+<p>
   Provides the ability to download RESET+ in two versions: 
   <ol>
     <li>The usual version (reset+.css), in which the entire file code is visualized;</li>
@@ -41,6 +45,10 @@
 </ul>  
 <p>
   Соответствует стандартам CSS3 и HTML5 !
+</p>
+
+<p>
+  Сборка содержит "box-sizing: border-box;"
 </p>
 
 <p>
