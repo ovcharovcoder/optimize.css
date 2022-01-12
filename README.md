@@ -44,7 +44,7 @@
   <li>Дата сборки: 10.01.2022;</li>
   <li>Лицензия: GNU/GPL.</li>
 </ul>  
-<p>Моя сборка является результатом модификации файлов сброса стилей <a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">Эрика Мейера</a> и <a href="http://html5doctor.com/html-5-reset-stylesheet/" target="_blank">Ричарда Кларка</a>.</p>
+<p>Моя сборка является результатом модификации файлов сброса стилей <a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">Эрика Мейера</a> и <a href="http://html5doctor.com/html-5-reset-stylesheet/" target="_blank">Ричарда Кларка</a>. </p>
 <p>
   Соответствует стандартам CSS3 и HTML5 !
 </p>
