@@ -7,7 +7,7 @@
   <li>Build date: 10.01.2022;</li>
   <li>License: GNU/GPL.</li>
 </ul>  
-<p>My assembly is the result of modifying <a href="https://meyerweb.com/eric/tools/css/reset/">Eric Meier's</a> CSS reset and <a href="http://html5doctor.com/html-5-reset-stylesheet/">Richard Clark</a>.</p>
+<p>My assembly is the result of modifying <a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">Eric Meier's</a> CSS reset and <a href="http://html5doctor.com/html-5-reset-stylesheet/" target="_blank">Richard Clark</a>.</p>
 <p>
   Complies with the requirements CSS3 and HTML5 !
 </p>
@@ -44,7 +44,7 @@
   <li>Дата сборки: 10.01.2022;</li>
   <li>Лицензия: GNU/GPL.</li>
 </ul>  
-<p>Моя сборка является результатом модификации файлов сброса стилей <a href="https://meyerweb.com/eric/tools/css/reset/">Эрика Мейера</a> и <a href="http://html5doctor.com/html-5-reset-stylesheet/">Ричарда Кларка</a>.</p>
+<p>Моя сборка является результатом модификации файлов сброса стилей <a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">Эрика Мейера</a> и <a href="http://html5doctor.com/html-5-reset-stylesheet/" target="_blank">Ричарда Кларка</a>.</p>
 <p>
   Соответствует стандартам CSS3 и HTML5 !
 </p>
