@@ -7,6 +7,7 @@
   <li>Build date: 10.01.2022;</li>
   <li>License: GNU/GPL.</li>
 </ul>  
+<p>My assembly is the result of modifying Eric Meier's CSS reset and Richard Clark.</p>
 <p>
   Complies with the requirements CSS3 and HTML5 !
 </p>
@@ -43,6 +44,7 @@
   <li>Дата сборки: 10.01.2022;</li>
   <li>Лицензия: GNU/GPL.</li>
 </ul>  
+<p>Моя сборка является результатом модификации файлов сброса стилей Эрика Мейера и Ричарда Кларка.</p>
 <p>
   Соответствует стандартам CSS3 и HTML5 !
 </p>
