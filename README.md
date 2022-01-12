@@ -19,7 +19,7 @@
   Provides the ability to download RESET+ in two versions: 
   <ol>
     <li>The usual version (reset+.css), in which the entire file code is visualized;</li>
-    <li>Compressed (minimized) version (reset+.min.css), which has the smallest file size.</li>
+    <li>Compressed version (reset+.min.css), which has the smallest file size.</li>
     </ol>
 </p>
 <p>
@@ -55,7 +55,7 @@
   Предоставляется возможность загрузить Reset+ в двух вариантах: 
   <ol>
     <li>Обычная версия (reset+.css), в которой наглядно виден весь код файла;</li>
-    <li>Cжатая (минимизированная) версия (reset+.min.css), которая имеет наименьший размер файла.</li>
+    <li>Cжатая версия (reset+.min.css), которая имеет наименьший размер файла.</li>
     </ol>
 </p>
 <p>
