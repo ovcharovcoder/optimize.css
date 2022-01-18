@@ -292,6 +292,7 @@ table {
 
 textarea {
   overflow: auto;
+  resize: none;	
 }
 
 /* Styles for elements */
