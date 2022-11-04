@@ -1,4 +1,6 @@
-<h1>Reset and optimization the cascading style sheets (CSS) browser (en) </h1>
+<h1>optimize.css</h1>
+
+<h2>Reset and optimization the cascading style sheets (CSS) browser (en) </h2>
 
 <p>
 optimize.css is a streamlined library of Cascading Style Sheets (CSS) rules that
@@ -17,7 +19,7 @@ browsers and simplifies the process of resolving browser style conflicts.
 
 <hr>
 
-<h1>Перезавантаження та оптимізація каскадних таблиць стилів (CSS) браузера. (uk)</h1>
+<h2>Перезавантаження та оптимізація каскадних таблиць стилів (CSS) браузера. (uk)</h2>
 
 <p>
 optimize.css - це впорядкована бібліотека правил каскадних таблиць стилів (CSS), що 
