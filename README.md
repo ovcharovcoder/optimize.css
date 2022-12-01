@@ -13,7 +13,7 @@ browsers and simplifies the process of resolving browser style conflicts.
 <ul>
   <li>Author: Andriy Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Build date: 21.09.2022;</li>
+  <li>Build date: 01.12.2022;</li>
   <li>License: GNU/GPL.</li>
 </ul>  
 
