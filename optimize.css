@@ -36,7 +36,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.4;
+  line-height: 1.2;
   letter-spacing: 0.01em;
 }
 /* ========================  Global styles  /END ============================ */
@@ -68,7 +68,7 @@ address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, var {
 button, input, optgroup, select, textarea {
   font-family: inherit;
   font-size: inherit;
-  line-height: 1.15;
+  line-height: 1.2;
   margin: 0;
 }
 
@@ -154,6 +154,8 @@ a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
+  line-height: inherit;
+  
 }
 
 a:not([class]) { text-decoration-skip-ink: auto; }
