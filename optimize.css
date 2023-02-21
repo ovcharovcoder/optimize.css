@@ -22,7 +22,6 @@ Build date: 01.12.2022.
 html, body {
   height: 100%; 
   position: relative;
-  overflow-x: hidden;
 }
 
 html { 
