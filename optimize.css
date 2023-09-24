@@ -2,7 +2,7 @@
 /*
 Author: Andrii Ovcharov;
 E-mail: datoshcode@gmail.com;
-Build date: 01.12.2022.
+Build date: 24.09.2023.
 */
 
 /* ========================  Global styles  ================================= */
@@ -19,10 +19,6 @@ Build date: 01.12.2022.
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
-html, body {
-  height: 100%; 
-  position: relative;
-}
 
 html { 
   -webkit-text-size-adjust: 100%;
@@ -35,7 +31,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.01em;
 }
 /* ========================  Global styles  /END ============================ */
@@ -129,6 +125,13 @@ img, svg {
 
 input, select { vertical-align: middle; }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 nav ul { list-style: none; }
 
 sub, sup {
@@ -205,7 +208,11 @@ ins {
   text-decoration: none;
 }
 
-img { border-style: none; }
+img { 
+  border-style: none;
+  max-width: 100%;
+  display: block;
+}
 
 label { cursor: pointer; }
 
@@ -250,6 +257,11 @@ textarea {
 
 /* Add the correct display in IE 10+ */
 template { display: none; }
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
 
 /* Installs size of the font such as beside his parent */
 ul ul { font-size: 100%; }
