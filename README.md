@@ -36,5 +36,5 @@ optimize.css - це впорядкована бібліотека правил �
 </ul>  
 
 <div>
-  <img src="img.png">
+  <img src="img.jpg">
 </div>
