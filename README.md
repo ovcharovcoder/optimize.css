@@ -11,7 +11,7 @@ browsers and simplifies the process of resolving browser style conflicts.
 </p
 
 <ul>
-  <li>Author: Andriy Ovcharov;</li>
+  <li>Author: Andrii Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 01.12.2022;</li>
   <li>License: GNU/GPL.</li>
