@@ -293,10 +293,9 @@ pre {
 
 img,
 svg {
-  vertical-align: top;
   max-width: 100%;
   height: auto;
-  border: 0;
+  border-style: none;
 }
 
 figure {
@@ -423,12 +422,6 @@ ins {
   text-decoration: none;
 }
 
-img {
-  border-style: none;
-  max-width: 100%;
-  display: block;
-}
-
 label {
   cursor: pointer;
 }
@@ -512,4 +505,4 @@ ul ul {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-/* --- END/ optimize.css  --- */
+/* --- /END optimize.css  --- */
