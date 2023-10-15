@@ -9,6 +9,15 @@ browser, speeds up the work of creating a new website from a clean sheet,
 and also contains many other styles that eliminate the shortcomings inherent in some
 browsers and simplifies the process of resolving browser style conflicts.
 </p
+
+<ul>
+  <li>Author: Andrii Ovcharov;</li>
+  <li>E-mail: datoshcode@gmail.com;</li>
+  <li>Build date: 15.10.2023;</li>
+  <li>License: GNU/GPL.</li>
+</ul>  
+
+<h3>Download</h3>
 <ol>
   <li>
     <a href="https://drive.google.com/file/d/1o_ujCAtzQLDZ8ZgTqyr5SwgLUCJ3riXg/view?usp=sharing">Download file optimize.css</a>
@@ -17,13 +26,6 @@ browsers and simplifies the process of resolving browser style conflicts.
   <a href="https://drive.google.com/file/d/1OkOrAHLcU5zPt_WkvuSrA9dJEjuAicXr/view?usp=sharing">Download file optimize_min.css</a>
 </li>
 </ol>
-
-<ul>
-  <li>Author: Andrii Ovcharov;</li>
-  <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Build date: 15.10.2023;</li>
-  <li>License: GNU/GPL.</li>
-</ul>  
 
 <hr>
 
