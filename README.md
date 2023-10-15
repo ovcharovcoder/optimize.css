@@ -25,7 +25,7 @@ browsers and simplifies the process of resolving browser style conflicts.
   </li>
 <li>
   <a href="https://drive.google.com/file/d/1OkOrAHLcU5zPt_WkvuSrA9dJEjuAicXr/view?usp=sharing">Download file</a>
-  optimize_min.css (compressed version of the file).
+  optimize_min.css (minified).
 </li>
 </ol>
 
