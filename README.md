@@ -10,6 +10,9 @@ and also contains many other styles that eliminate the shortcomings inherent in 
 browsers and simplifies the process of resolving browser style conflicts.
 </p
 
+<a href="https://drive.google.com/file/d/1o_ujCAtzQLDZ8ZgTqyr5SwgLUCJ3riXg/view?usp=sharing">Download file optimize.css</a>
+<a href="https://drive.google.com/file/d/1OkOrAHLcU5zPt_WkvuSrA9dJEjuAicXr/view?usp=sharing">Download file optimize_min.css</a>
+
 <ul>
   <li>Author: Andrii Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
