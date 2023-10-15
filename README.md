@@ -14,7 +14,7 @@ browsers and simplifies the process of resolving browser style conflicts.
   <li>Author: Andrii Ovcharov (Datosh Code);</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 15.10.2023;</li>
-  <li>License: GNU General Public License v2 or later</li>
+  <li>License: GNU General Public License v2 or later.</li>
 </ul>  
 
 <h3>Download</h3>
