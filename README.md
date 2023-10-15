@@ -13,7 +13,7 @@ browsers and simplifies the process of resolving browser style conflicts.
 <ul>
   <li>Author: Andrii Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Build date: 01.12.2022;</li>
+  <li>Build date: 15.10.2023;</li>
   <li>License: GNU/GPL.</li>
 </ul>  
 
@@ -31,7 +31,7 @@ optimize.css - це впорядкована бібліотека правил �
 <ul>
   <li>Автор: Андрій Овчаров;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Дата розробки: 01.12.2022;</li>
+  <li>Дата розробки: 15.10.2023;</li>
   <li>Ліцензія: GNU/GPL.</li>
 </ul>  
 
