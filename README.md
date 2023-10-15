@@ -20,12 +20,12 @@ browsers and simplifies the process of resolving browser style conflicts.
 <h3>Download</h3>
 <ol>
   <li>
-    <a href="https://drive.google.com/file/d/1o_ujCAtzQLDZ8ZgTqyr5SwgLUCJ3riXg/view?usp=sharing">Download</a>
-    file optimize.css;
+    <a href="https://drive.google.com/file/d/1o_ujCAtzQLDZ8ZgTqyr5SwgLUCJ3riXg/view?usp=sharing">Download file</a>
+    optimize.css;
   </li>
 <li>
-  <a href="https://drive.google.com/file/d/1OkOrAHLcU5zPt_WkvuSrA9dJEjuAicXr/view?usp=sharing">Download</a>
-  file optimize_min.css (compressed version of the file).
+  <a href="https://drive.google.com/file/d/1OkOrAHLcU5zPt_WkvuSrA9dJEjuAicXr/view?usp=sharing">Download file</a>
+  optimize_min.css (compressed version of the file).
 </li>
 </ol>
 
