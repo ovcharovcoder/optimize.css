@@ -1,7 +1,7 @@
 <h1>optimize.css</h1>
 
 <h2>Reset and optimization the cascading style sheets (CSS) browser </h2>
-
+<h3>About</h3>
 <p>
 optimize.css is a streamlined library of Cascading Style Sheets (CSS) rules that
 overrides the built-in default cascading styling settings
