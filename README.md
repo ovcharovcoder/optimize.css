@@ -14,7 +14,7 @@ browsers and simplifies the process of resolving browser style conflicts.
   <li>Author: Andrii Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 15.10.2023;</li>
-  <li>License: GNU/GPL.</li>
+  <li>License: GNU General Public License v2 or later</li>
 </ul>  
 
 <h3>Download</h3>
@@ -28,22 +28,6 @@ browsers and simplifies the process of resolving browser style conflicts.
 </ol>
 
 <hr>
-
-<h2>Перезавантаження та оптимізація каскадних таблиць стилів (CSS) браузера</h2>
-
-<p>
-optimize.css - це впорядкована бібліотека правил каскадних таблиць стилів (CSS), що 
-перепризначає вбудовані за замовчанням налаштування каскадної стилізації 
-браузера, пришвидшує роботу по створенню нового вебсайту з чистого аркушу,
-а також містить багато інших стилів, які усувають недоліки притаманні деяким 
-браузерам та спрощує процес вирішення конфліктів стилів браузерів.
-</p>
-<ul>
-  <li>Автор: Андрій Овчаров;</li>
-  <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Дата розробки: 15.10.2023;</li>
-  <li>Ліцензія: GNU/GPL.</li>
-</ul>  
 
 <div>
   <img src="img.jpg">
