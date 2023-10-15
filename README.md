@@ -1,6 +1,6 @@
 <h1>optimize.css</h1>
 
-<h2>Reset and optimization the cascading style sheets (CSS) browser </h2>
+<h2>Reset and optimization the Cascading Style Sheets (CSS) browser </h2>
 <h3>About</h3>
 <p>
 optimize.css is a streamlined library of Cascading Style Sheets (CSS) rules that
@@ -11,7 +11,7 @@ browsers and simplifies the process of resolving browser style conflicts.
 </p
 
 <ul>
-  <li>Author: Andrii Ovcharov;</li>
+  <li>Author: Andrii Ovcharov (Datosh Code);</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 15.10.2023;</li>
   <li>License: GNU General Public License v2 or later</li>
