@@ -7,117 +7,120 @@
 * Build date: 17.11.2023.
 * License: GNU General Public License v2 or later
 */
-
+/* --- optimize.css --- */
+/*
+* About: Reset and optimization of Cascading Style Sheets (CSS)
+* Author: Andrii Ovcharov (Datosh Code);
+* E-mail: datoshcode@gmail.com;
+* GitHub URI: https://github.com/datoshcode/optimize.css
+* Build date: 17.11.2023.
+* License: GNU General Public License v2 or later
+*/
 :root {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 1em;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1em;
 }
-
 *,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+::after,
+::before {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
 }
-
 html {
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizelegibility;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizelegibility;
 }
-
 body {
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
-  background: #fff;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	letter-spacing: 0.01em;
+	background: #fff;
 }
-
-html,
+a,
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
 body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
 div,
-span,
-object,
-iframe,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
+header,
+hgroup,
+html,
+i,
+iframe,
 img,
 ins,
 kbd,
-q,
-s,
-samp,
-strong,
-sub,
-sup,
-var,
-b,
-u,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
 label,
 legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
+li,
 mark,
-audio,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+u,
+ul,
+var,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 }
-
 article,
 aside,
 details,
@@ -128,9 +131,8 @@ header,
 hgroup,
 nav,
 section {
-  display: block;
+	display: block;
 }
-
 address,
 caption,
 cite,
@@ -146,356 +148,285 @@ h6,
 strong,
 th,
 var {
-  font-weight: normal;
-  font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 }
-
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: 1.2;
-  margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.2;
+	margin: 0;
 }
-
 embed,
 iframe,
 object {
-  max-width: 100%;
+	max-width: 100%;
 }
-
 button,
 input {
-  overflow: visible;
+	overflow: visible;
 }
-
 button,
 select {
-  text-transform: none;
+	text-transform: none;
 }
-
 button,
-input[type="submit"] {
-  display: inline-block;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  cursor: pointer;
+input[type='submit'] {
+	display: inline-block;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
 }
-
-mark,
-ins {
-  background: #fff9c0;
-  text-decoration: none;
+ins,
+mark {
+	background: #fff9c0;
+	text-decoration: none;
 }
-
 abbr,
 acronym {
-  border-bottom: 1px dotted #666;
-  cursor: help;
+	border-bottom: 1px dotted #666;
+	cursor: help;
 }
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
+[type='button'],
+[type='reset'],
+[type='submit'],
+button {
+	-webkit-appearance: button;
 }
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-  border: 0;
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner,
+button::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+	border: 0;
 }
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring,
+button:-moz-focusring {
+	outline: 1px dotted ButtonText;
 }
-
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
-
-blockquote:before,
 blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+blockquote:before,
+q:after,
+q:before {
+	content: '';
+	content: none;
 }
-
 caption,
-th,
-td {
-  text-align: left;
-  vertical-align: top;
-  font-weight: normal;
+td,
+th {
+	text-align: left;
+	vertical-align: top;
+	font-weight: 400;
 }
-
-h1,
-h2,
-h3,
-h4 {
-  letter-spacing: 0.03em;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  clear: both;
+	clear: both;
 }
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 b,
 strong {
-  font-weight: bolder;
+	font-weight: bolder;
 }
-
-dfn,
 cite,
+dfn,
 em,
 i {
-  font-style: italic;
+	font-style: italic;
 }
-
-pre,
 code,
 kbd,
+pre,
 samp {
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 1em;
+	font-family: 'Lucida Console', 'Courier New', monospace;
+	font-size: 1em;
 }
-
 pre {
-  background: #eee;
-  line-height: 1.6;
-  margin-bottom: 1.6em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 1.6em;
+	background: #eee;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
 }
-
 figure {
-  margin: 1em 0;
+	margin: 1em 0;
 }
-
 input,
 select {
-  vertical-align: middle;
+	vertical-align: middle;
 }
-
-input,
 button,
-textarea,
-select {
-  font: inherit;
+input,
+select,
+textarea {
+	font: inherit;
 }
-
 nav ul {
-  list-style: none;
+	list-style: none;
 }
-
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
-
 sub {
-  bottom: -0.25em;
+	bottom: -0.25em;
 }
-
 sup {
-  top: -0.5em;
+	top: -0.5em;
 }
-
-[type="checkbox"],
-[type="radio"] {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
+[type='checkbox'],
+[type='radio'] {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
 }
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	height: auto;
 }
-
 a {
-  background-color: transparent;
-  font-size: inherit;
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-  line-height: inherit;
+	background-color: transparent;
+	font-size: inherit;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	line-height: inherit;
 }
-
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+	text-decoration-skip-ink: auto;
 }
-
 article > * + * {
-  margin-top: 1em;
+	margin-top: 1em;
 }
-
 abbr {
-  border: 0;
-  font-variant: normal;
+	border: 0;
+	font-variant: normal;
 }
-
 abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+	border-bottom: none;
+	text-decoration: underline;
+	-webkit-text-decoration: underline dotted;
+	text-decoration: underline dotted;
 }
-
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
+	-webkit-appearance: button;
+	font: inherit;
 }
-
 big {
-  font-size: 125%;
+	font-size: 125%;
 }
-
 del {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }
-
 details {
-  display: block;
+	display: block;
 }
-
 dt {
-  font-weight: 700;
+	font-weight: 700;
 }
-
 dd {
-  margin: 0 1.5em 1.5em;
+	margin: 0 1.5em 1.5em;
 }
-
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-  border: 0;
+	padding: 0.35em 0.75em 0.625em;
+	border: 0;
 }
-
 hr {
-  background-color: #ccc;
-  border: 0;
-  height: 1px;
-  margin-bottom: 1.5em;
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
 }
-
 input::-ms-clear {
-  display: none;
+	display: none;
 }
-
 ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none;
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
 }
-
 label {
-  cursor: pointer;
+	cursor: pointer;
 }
-
 legend {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
 }
-
 mark {
-  background-color: #ff99;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
+	background-color: #ff99;
+	color: #000;
+	font-style: italic;
+	font-weight: 700;
 }
-
 p + p {
-  margin-top: 1em;
+	margin-top: 1em;
 }
-
 progress {
-  vertical-align: baseline;
+	vertical-align: baseline;
 }
-
 small {
-  font-size: 80%;
+	font-size: 80%;
 }
-
 sub {
-  bottom: -0.25em;
+	bottom: -0.25em;
 }
-
 sup {
-  top: -0.5em;
+	top: -0.5em;
 }
-
 summary {
-  display: list-item;
+	display: list-item;
 }
-
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 0 0 1.5em;
-  width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 1.5em;
+	width: 100%;
 }
-
 textarea {
-  overflow: auto;
-  resize: none;
-  width: 100%;
+	overflow: auto;
+	resize: none;
+	width: 100%;
 }
-
 template {
-  display: none;
+	display: none;
 }
-
-ul[class],
-ol[class] {
-  list-style: none;
+ol[class],
+ul[class] {
+	list-style: none;
 }
-
 ul ul {
-  font-size: 100%;
+	font-size: 100%;
 }
-
 [hidden] {
-  display: none;
+	display: none;
 }
-
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
+[type='search'] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
 }
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
 }
 /* --- /END optimize.css  --- */
