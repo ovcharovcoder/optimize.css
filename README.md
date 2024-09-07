@@ -21,6 +21,15 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
    <li>Mobile optimization: The file takes into account the specifics of touchscreens and mobile devices, making the site smoother and more user-friendly on smartphones and tablets.</li>
 </ul>
 
+<h2>What makes this file unique</h2>
+<ul>
+  <li><b>Easy integration:</b> Simply add this file at the start of any project for a quick reset, with full control over the styles.</li>
+  <li><b>Clean start for styles:</b> The file removes default styles (margins, paddings, borders, etc.) that can vary between browsers, giving developers more control over the appearance;</li>
+  <li><b>Easy customization:</b> The use of variables makes optimize.css universal for any web design – change a few values, and you're set!</li>
+  <li><b>Support for modern standards:</b> It incorporates the latest text optimization technologies like <i>text-rendering, font-smoothing,</i> as well as handling animations and interactions with different viewers;</li>
+   <li>Mobile optimization: The file takes into account the specifics of touchscreens and mobile devices, making the site smoother and more user-friendly on smartphones and tablets.</li>
+</ul>
+
 <h3>Download</h3>
 <ol>
   <li>
