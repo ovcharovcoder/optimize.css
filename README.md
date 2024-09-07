@@ -40,7 +40,7 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   <li>Open and download the file from the GitHub repository:<br>
    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
     optimize.css;<br>
-    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
+    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize_min.css">Open file</a>
     optimize.min.css (minified);
   </li>
   <li>Add it at the start of your CSS file or HTML document: <code>&lt;link rel="stylesheet" href="optimize.css"&gt;</code>
