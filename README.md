@@ -45,7 +45,7 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   </li>
   <li>Add it at the start of your CSS file or HTML document: <code>&lt;link rel="stylesheet" href="optimize.css"&gt;</code>
   </li>
-  <li>Adjust the variables in :root for your project or use it as is.</li>
+  <li>Adjust the variables in <code>:root</code> for your project or use it as is.</li>
 </ol>
 
 <h3>Download</h3>
