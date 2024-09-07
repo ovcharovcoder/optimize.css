@@ -1,4 +1,4 @@
-<h1>optimize.css</h1>
+<h1>OPTIMIZE CSS</h1>
 <h2>Reset and optimization the Cascading Style Sheets (CSS) browser</h2>
 <ul>
   <li>Author: Andriy Ovcharov (Datosh Code);</li>
