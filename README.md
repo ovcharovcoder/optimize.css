@@ -51,5 +51,5 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
 <hr>
 
 <div>
-  <img src="img.jpg">
+  <img src="optimize_css.webp">
 </div>
