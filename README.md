@@ -32,7 +32,6 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
 <ul>
   <li><b>Front-end developers:</b> This is the perfect starting point for those frequently creating websites or web apps from scratch and want to avoid "fighting" with browser-specific styles;</li>
   <li><b>UI/UX designers:</b> It provides a clean foundation, allowing focus on styling elements without unnecessary constraints or incompatibilities;</li>
-  <li><b>Easy customization:</b> The use of variables makes optimize.css universal for any web design – change a few values, and you're set!;</li>
   <li><b>Teams:</b> The file can easily be adopted as a standard for projects, simplifying style management for all team members.</li>
 </ul>
 
