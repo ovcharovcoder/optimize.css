@@ -48,18 +48,6 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   <li>Adjust the variables in <code>:root</code> for your project or use it as is.</li>
 </ol>
 
-<h3>Download</h3>
-<ol>
-  <li>
-    <a href="https://drive.google.com/file/d/1rMDP8lkU8RdGKqXx3XiSZv8E2M_3s_PJ/view?usp=sharing">Download file</a>
-    optimize.css;
-  </li>
-<li>
-  <a href="https://drive.google.com/file/d/1D40dO7TJw9U-WSKb_qx3bOb6FF41H9ny/view?usp=sharing">Download file</a>
-  optimize.min.css (minified).
-</li>
-</ol>
-
 <hr>
 
 <div>
