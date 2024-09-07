@@ -1,3 +1,9 @@
+<style>
+  h3 {
+    font-size: 30px;
+  }
+</style>
+
 <h1>optimize.css</h1>
 
 <ul>
@@ -13,7 +19,7 @@
 This is a reset and optimization CSS file that ensures a consistent and stable appearance of elements across all modern browsers by minimizing default styles and creating a flexible foundation for UI development.
 </p
 
-<h3>About</h3>
+<h3>Key Benefits</h3>
 
  <ul>
   <li><b>Cross-browser compatibility:</b> optimize.css ensures that all webpage elements look the same across different browsers (Chrome, Firefox, Safari, Edge, etc.), eliminating potential rendering issues;</li>
