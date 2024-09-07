@@ -39,7 +39,7 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
 <ul>
   <li>Download the file from the GitHub repository:<br>
    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
-    optimize.css;<br> or
+    optimize.css;<br>
     <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
     optimize.min.css (minified);
   </li>
