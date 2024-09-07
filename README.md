@@ -37,9 +37,9 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
 
 <h2>How to use it?</h2>
 <ul>
-  <li>Download the file from the GitHub repository:
+  <li>Download the file from the GitHub repository:<br>
    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
-    optimize.css;<br>
+    optimize.css;<br> or
     <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
     optimize.min.css (minified);
   </li>
