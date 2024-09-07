@@ -8,29 +8,38 @@
 * License: GNU General Public License v2 or later
 */
 :root {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	font-size: 1em;
+    --main-bg-color: #fff;
+    --main-text-color: #000;
+    --link-hover-color: #ff9;
+    --font-family-base: Arial, Helvetica, sans-serif;
+    
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1em;
 }
 *,
 ::after,
 ::before {
-	-webkit-box-sizing: inherit;
-	box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
 }
 html {
-	-webkit-text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    touch-action: manipulation;
+    overflow-wrap: break-word;
 }
 body {
-	scroll-behavior: smooth;
-	text-rendering: optimizeSpeed;
-	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.5;
-	letter-spacing: 0.01em;
-	background: #fff;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    font-family: var(--font-family-base);
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a,
 abbr,
@@ -105,12 +114,12 @@ u,
 ul,
 var,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 article,
 aside,
@@ -122,7 +131,7 @@ header,
 hgroup,
 nav,
 section {
-	display: block;
+    display: block;
 }
 address,
 caption,
@@ -139,86 +148,88 @@ h6,
 strong,
 th,
 var {
-	font-weight: 400;
-	font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 button,
 input,
 optgroup,
 select,
 textarea {
-	font-family: inherit;
-	font-size: inherit;
-	line-height: 1.2;
-	margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.2;
+    margin: 0;
+    background: none;
+    border: none;
 }
 embed,
 iframe,
 object {
-	max-width: 100%;
+    max-width: 100%;
 }
 button,
 input {
-	overflow: visible;
+    overflow: visible;
 }
 button,
 select {
-	text-transform: none;
+    text-transform: none;
 }
 button,
 input[type='submit'] {
-	display: inline-block;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	cursor: pointer;
+    display: inline-block;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
 }
 ins,
 mark {
-	background: #fff9c0;
-	text-decoration: none;
+    background: var(--link-hover-color);
+    text-decoration: none;
 }
 abbr,
 acronym {
-	border-bottom: 1px dotted #666;
-	cursor: help;
+    border-bottom: 1px dotted #666;
+    cursor: help;
 }
 [type='button'],
 [type='reset'],
 [type='submit'],
 button {
-	-webkit-appearance: button;
+    -webkit-appearance: button;
 }
 [type='button']::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
 [type='submit']::-moz-focus-inner,
 button::-moz-focus-inner {
-	border-style: none;
-	padding: 0;
-	border: 0;
+    border-style: none;
+    padding: 0;
+    border: 0;
 }
 [type='button']:-moz-focusring,
 [type='reset']:-moz-focusring,
 [type='submit']:-moz-focusring,
 button:-moz-focusring {
-	outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:after,
 blockquote:before,
 q:after,
 q:before {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 caption,
 td,
 th {
-	text-align: left;
-	vertical-align: top;
-	font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 400;
 }
 h1,
 h2,
@@ -226,194 +237,204 @@ h3,
 h4,
 h5,
 h6 {
-	clear: both;
+    clear: both;
 }
 b,
 strong {
-	font-weight: bolder;
+    font-weight: bolder;
 }
 cite,
 dfn,
 em,
 i {
-	font-style: italic;
+    font-style: italic;
 }
 code,
 kbd,
 pre,
 samp {
-	font-family: 'Lucida Console', 'Courier New', monospace;
-	font-size: 1em;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    font-size: 1em;
 }
 pre {
-	background: #eee;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
+    background: #eee;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
 }
 figure {
-	margin: 1em 0;
+    margin: 1em 0;
 }
 input,
 select {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 button,
 input,
 select,
 textarea {
-	font: inherit;
+    font: inherit;
 }
 nav ul {
-	list-style: none;
+    list-style: none;
 }
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 sub {
-	bottom: -0.25em;
+    bottom: -0.25em;
 }
 sup {
-	top: -0.5em;
+    top: -0.5em;
 }
 [type='checkbox'],
 [type='radio'] {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
 }
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
-	height: auto;
+    height: auto;
 }
 a {
-	background-color: transparent;
-	font-size: inherit;
-	display: inline-block;
-	text-decoration: none;
-	color: inherit;
-	line-height: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    line-height: inherit;
 }
 a:not([class]) {
-	text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: auto;
+}
+a:focus,
+a:active {
+    outline: none;
 }
 article > * + * {
-	margin-top: 1em;
+    margin-top: 1em;
 }
 abbr {
-	border: 0;
-	font-variant: normal;
+    border: 0;
+    font-variant: normal;
 }
 abbr[title] {
-	border-bottom: none;
-	text-decoration: underline;
-	-webkit-text-decoration: underline dotted;
-	text-decoration: underline dotted;
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
 }
 ::-webkit-file-upload-button {
-	-webkit-appearance: button;
-	font: inherit;
+    -webkit-appearance: button;
+    font: inherit;
 }
 big {
-	font-size: 125%;
+    font-size: 125%;
 }
 del {
-	text-decoration: line-through;
+    text-decoration: line-through;
 }
 details {
-	display: block;
+    display: block;
 }
 dt {
-	font-weight: 700;
+    font-weight: 700;
 }
 dd {
-	margin: 0 1.5em 1.5em;
+    margin: 0 1.5em 1.5em;
 }
 fieldset {
-	padding: 0.35em 0.75em 0.625em;
-	border: 0;
+    padding: 0.35em 0.75em 0.625em;
+    border: 0;
 }
 hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
 }
 input::-ms-clear {
-	display: none;
+    display: none;
 }
 ins {
-	background-color: #ff9;
-	color: #000;
-	text-decoration: none;
+    background-color: var(--link-hover-color);
+    color: var(--main-text-color);
+    text-decoration: none;
 }
 label {
-	cursor: pointer;
+    cursor: pointer;
 }
 legend {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	color: inherit;
-	display: table;
-	max-width: 100%;
-	padding: 0;
-	white-space: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
 }
 mark {
-	background-color: #ff99;
-	color: #000;
-	font-style: italic;
-	font-weight: 700;
+    background-color: var(--link-hover-color);
+    color: var(--main-text-color);
+    font-style: italic;
+    font-weight: 700;
 }
 progress {
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 small {
-	font-size: 80%;
+    font-size: 80%;
 }
 sub {
-	bottom: -0.25em;
+    bottom: -0.25em;
 }
 sup {
-	top: -0.5em;
+    top: -0.5em;
 }
 summary {
-	display: list-item;
+    display: list-item;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin: 0 0 1.5em;
-	width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 0 1.5em;
+    width: 100%;
 }
 textarea {
-	overflow: auto;
-	resize: none;
-	width: 100%;
+    overflow: auto;
+    resize: none;
+    width: 100%;
 }
 template {
-	display: none;
+    display: none;
 }
 ol[class],
 ul[class] {
-	list-style: none;
+    list-style: none;
 }
 ul ul {
-	font-size: 100%;
+    font-size: 100%;
 }
 [hidden] {
-	display: none;
+    display: none;
 }
 [type='search'] {
-	-webkit-appearance: textfield;
-	outline-offset: -2px;
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
 }
 [type='search']::-webkit-search-decoration {
-	-webkit-appearance: none;
+    -webkit-appearance: none;
+}
+button:focus,
+input:focus,
+a:focus {
+    outline: 2px dashed #333;
+    outline-offset: 4px;
 }
