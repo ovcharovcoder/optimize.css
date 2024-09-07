@@ -1,4 +1,4 @@
-<h1>optimize.css</h1>
+<h1>Reset and optimization the Cascading Style Sheets (CSS) browser (optimize.css)</h1>
 
 <ul>
   <li>Author: Andriy Ovcharov (Datosh Code);</li>
@@ -7,7 +7,6 @@
   <li>License: GNU General Public License v2 or later.</li>
 </ul>
 
-<h1>Reset and optimization the Cascading Style Sheets (CSS) browser </h1>
 <h2>About</h2>
 <p>
 This is a reset and optimization CSS file that ensures a consistent and stable appearance of elements across all modern browsers by minimizing default styles and creating a flexible foundation for UI development.
