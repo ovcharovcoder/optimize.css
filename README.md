@@ -35,6 +35,16 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   <li><b>Teams:</b> The file can easily be adopted as a standard for projects, simplifying style management for all team members.</li>
 </ul>
 
+<h2>How to use it?</h2>
+<ul>
+  <li>Download the file from the GitHub repository:
+   <a href="https://drive.google.com/file/d/1rMDP8lkU8RdGKqXx3XiSZv8E2M_3s_PJ/view?usp=sharing">Download file</a>
+    optimize.css;<br>
+  </li>
+  <li><b>UI/UX designers:</b> It provides a clean foundation, allowing focus on styling elements without unnecessary constraints or incompatibilities;</li>
+  <li><b>Teams:</b> The file can easily be adopted as a standard for projects, simplifying style management for all team members.</li>
+</ul>
+
 <h3>Download</h3>
 <ol>
   <li>
