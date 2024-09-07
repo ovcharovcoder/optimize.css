@@ -1,9 +1,3 @@
-<style>
-  h3 {
-    font-size: 30px;
-  }
-</style>
-
 <h1>optimize.css</h1>
 
 <ul>
