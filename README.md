@@ -40,6 +40,8 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   <li>Download the file from the GitHub repository:
    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
     optimize.css;<br>
+    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
+    optimize.min.css (minified);
   </li>
   <li><b>UI/UX designers:</b> It provides a clean foundation, allowing focus on styling elements without unnecessary constraints or incompatibilities;</li>
   <li><b>Teams:</b> The file can easily be adopted as a standard for projects, simplifying style management for all team members.</li>
