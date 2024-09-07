@@ -10,12 +10,10 @@
 <h2>About</h2>
 <p>
 This is a reset and optimization CSS file that ensures a consistent and stable appearance of elements across all modern browsers by minimizing default styles and creating a flexible foundation for UI development.
-</p
+</p>
 
-
-<h3>Key Benefits</h3>
-
- <ul>
+<h2>About</h2>
+<ul>
   <li><b>Cross-browser compatibility:</b> optimize.css ensures that all webpage elements look the same across different browsers (Chrome, Firefox, Safari, Edge, etc.), eliminating potential rendering issues;</li>
   <li><b>Clean start for styles:</b> The file removes default styles (margins, paddings, borders, etc.) that can vary between browsers, giving developers more control over the appearance;</li>
   <li><b>Flexibility through variables:</b> The use of CSS variables for colors, fonts, and other key properties allows easy customization for any project, speeding up design adjustments;</li>
