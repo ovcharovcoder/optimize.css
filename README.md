@@ -48,7 +48,7 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   <li>Adjust the variables in <code>:root</code> for your project or use it as is.</li>
 </ol>
 
-<p><b>Enjoy using it!<b>/p>
+<p><b>Enjoy using it!<b></p>
 
 <hr>
 
