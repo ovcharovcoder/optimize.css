@@ -8,7 +8,6 @@
 </ul>
 
 <h2>Reset and optimization the Cascading Style Sheets (CSS) browser </h2>
-<h3>About</h3>
 <p>
 This is a reset and optimization CSS file that ensures a consistent and stable appearance of elements across all modern browsers by minimizing default styles and creating a flexible foundation for UI development.
 </p
