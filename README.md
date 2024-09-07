@@ -18,7 +18,7 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   <li><b>Clean start for styles:</b> The file removes default styles (margins, paddings, borders, etc.) that can vary between browsers, giving developers more control over the appearance;</li>
   <li><b>Flexibility through variables:</b> The use of CSS variables for colors, fonts, and other key properties allows easy customization for any project, speeding up design adjustments;</li>
   <li><b>Accessibility support:</b> Elements such as buttons, input fields, and focused elements (via outline) are considered to improve accessibility for users with disabilities;</li>
-   <li>Mobile optimization: The file takes into account the specifics of touchscreens and mobile devices, making the site smoother and more user-friendly on smartphones and tablets.</li>
+   <li><b>Mobile optimization:</b> The file takes into account the specifics of touchscreens and mobile devices, making the site smoother and more user-friendly on smartphones and tablets.</li>
 </ul>
 
 <h2>What makes this file unique</h2>
