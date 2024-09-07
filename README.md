@@ -1,5 +1,5 @@
 <h1>OPTIMIZE CSS</h1>
-<h2>Reset and optimization the Cascading Style Sheets (CSS) browser</h2>
+<h2>Reset and optimize the Cascading Style Sheets (CSS) in the browser.</h2>
 <ul>
   <li>Author: Andriy Ovcharov (Datosh Code);</li>
   <li>E-mail: datoshcode@gmail.com;</li>
