@@ -36,16 +36,17 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
 </ul>
 
 <h2>How to use it?</h2>
-<ul>
-  <li>Download the file from the GitHub repository:<br>
+<ol>
+  <li>Open and download the file from the GitHub repository:<br>
    <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
     optimize.css;<br>
     <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Open file</a>
     optimize.min.css (minified);
   </li>
-  <li><b>UI/UX designers:</b> It provides a clean foundation, allowing focus on styling elements without unnecessary constraints or incompatibilities;</li>
+  <li>Add it at the start of your CSS file or HTML document: <code><link rel="stylesheet" href="optimize.css"></code>
+  </li>
   <li><b>Teams:</b> The file can easily be adopted as a standard for projects, simplifying style management for all team members.</li>
-</ul>
+</ol>
 
 <h3>Download</h3>
 <ol>
