@@ -25,7 +25,7 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
 <ul>
   <li><b>Easy integration:</b> Simply add this file at the start of any project for a quick reset, with full control over the styles.</li>
   <li><b>Easy customization:</b> The use of variables makes optimize.css universal for any web design – change a few values, and you're set!</li>
-  <li><b>Support for modern standards:</b> It incorporates the latest text optimization technologies like <code>text-rendering, font-smoothing,</code> as well as handling animations and interactions with different viewers;</li>
+  <li><b>Support for modern standards:</b> It incorporates the latest text optimization technologies like <code>text-rendering,</code> <code>font-smoothing,</code> as well as handling animations and interactions with different viewers;</li>
 </ul>
 
 <h2>Who is it for?</h2>
@@ -45,7 +45,7 @@ This is a reset and optimization CSS file that ensures a consistent and stable a
   </li>
   <li>Add it at the start of your CSS file or HTML document: <code>&lt;link rel="stylesheet" href="optimize.css"&gt;</code>
   </li>
-  <li><b>Teams:</b> The file can easily be adopted as a standard for projects, simplifying style management for all team members.</li>
+  <li>Adjust the variables in :root for your project or use it as is.</li>
 </ol>
 
 <h3>Download</h3>
