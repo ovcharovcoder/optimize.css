@@ -1,21 +1,26 @@
 <h1>optimize.css</h1>
 
-<h2>Reset and optimization the Cascading Style Sheets (CSS) browser </h2>
-<h3>About</h3>
-<p>
-optimize.css is a streamlined library of Cascading Style Sheets (CSS) rules that
-overrides the built-in default cascading styling settings
-browser, speeds up the work of creating a new website from a clean sheet,
-and also contains many other styles that eliminate the shortcomings inherent in some
-browsers and simplifies the process of resolving browser style conflicts.
-</p
-
 <ul>
   <li>Author: Andriy Ovcharov (Datosh Code);</li>
   <li>E-mail: datoshcode@gmail.com;</li>
-  <li>Build date: 17.11.2023;</li>
+  <li>Build date: 07.09.2024;</li>
   <li>License: GNU General Public License v2 or later.</li>
-</ul>  
+</ul>
+
+<h2>Reset and optimization the Cascading Style Sheets (CSS) browser </h2>
+<h3>About</h3>
+<p>
+This is a reset and optimization CSS file that ensures a consistent and stable appearance of elements across all modern browsers by minimizing default styles and creating a flexible foundation for UI development.
+</p
+
+<h3>Key Benefits</h3>
+ <ul>
+  <li><b>Cross-browser compatibility:</b> optimize.css ensures that all webpage elements look the same across different browsers (Chrome, Firefox, Safari, Edge, etc.), eliminating potential rendering issues;</li>
+  <li><b>Clean start for styles:</b> The file removes default styles (margins, paddings, borders, etc.) that can vary between browsers, giving developers more control over the appearance;</li>
+  <li><b>Flexibility through variables:</b> The use of CSS variables for colors, fonts, and other key properties allows easy customization for any project, speeding up design adjustments;</li>
+  <li><b>Accessibility support:</b> Elements such as buttons, input fields, and focused elements (via outline) are considered to improve accessibility for users with disabilities;</li>
+   <li>Mobile optimization: The file takes into account the specifics of touchscreens and mobile devices, making the site smoother and more user-friendly on smartphones and tablets.</li>
+</ul>
 
 <h3>Download</h3>
 <ol>
