@@ -1,7 +1,7 @@
 <h1>OPTIMIZE CSS</h1>
 <h2>Reset and optimize the Cascading Style Sheets (CSS) in the browser.</h2>
 <ul>
-  <li>Author: Andriy Ovcharov (Datosh Code);</li>
+  <li>Author: Andriy Ovcharov;</li>
   <li>E-mail: datoshcode@gmail.com;</li>
   <li>Build date: 07.09.2024;</li>
   <li>License: GNU General Public License v2 or later.</li>
