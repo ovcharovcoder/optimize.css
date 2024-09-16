@@ -4,7 +4,6 @@
   <li>Author: Andriy Ovcharov;</li>
   <li>E-mail: ovcharovcoder@gmail.com;</li>
   <li>Build date: 07.09.2024;</li>
-  <li>License: GNU General Public License v2 or later.</li>
 </ul>
 
 <h2>About</h2>
