@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, picture, footer, header, hgroup, ma
 address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, var {
     font-weight: 400;
     font-style: normal;
-	font-optical-sizing: auto;
+    font-optical-sizing: auto;
 }
 
 /* Form elements */
