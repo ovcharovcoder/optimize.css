@@ -18,8 +18,10 @@
 }
 
 /* Universal box-sizing */
-*, ::after, ::before {
-    box-sizing: inherit;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
 /* HTML defaults */
