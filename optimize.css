@@ -4,7 +4,7 @@
 * Author: Andriy Ovcharov;
 * E-mail: ovcharovcoder@gmail.com;
 * GitHub URI: https://github.com/ovcharovcoder/optimize.css
-* Build date: 07.09.2024.
+* Build date: 27.12.2024.
 */
 
 /* Root variables */
@@ -15,7 +15,7 @@
     --font-family-base: Arial, Helvetica, sans-serif;
 
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* Universal box-sizing */
@@ -46,7 +46,7 @@ body {
 }
 
 /* Reset common elements */
-a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, nav, object, ol, output, p, pre, q, ruby, s, samp, section, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, u, ul, var, video {
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, main, nav, object, ol, output, p, pre, q, ruby, s, samp, section, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, u, ul, var, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -56,7 +56,7 @@ a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, c
 }
 
 /* Block elements */
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
 
@@ -77,8 +77,9 @@ button, input, optgroup, select, textarea {
 }
 
 /* Media elements */
-embed, iframe, object {
+img, video, embed, iframe, object {
     max-width: 100%;
+    height: auto;
 }
 
 /* Buttons and links */
@@ -99,6 +100,11 @@ a {
 
 a:focus, a:active {
     outline: none;
+}
+
+/* Lists */
+ul, ol {
+    list-style: none;
 }
 
 /* Misc */
