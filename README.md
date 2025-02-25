@@ -2,5 +2,5 @@
 <hr>
 
 <div>
-  <img src="optimize.webp width:500">
+  <img src="optimize.webp" width:'500'>
 </div>
