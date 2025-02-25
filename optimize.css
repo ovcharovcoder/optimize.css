@@ -1,158 +1,243 @@
 /* --- optimize.css --- */
 /*
-* About: Reset and optimization of Cascading Style Sheets (CSS)
-* Author: Andriy Ovcharov;
-* E-mail: ovcharovcoder@gmail.com;
-* GitHub URI: https://github.com/ovcharovcoder/optimize.css
-* Build date: 27.12.2024.
-*/
+ * About: CSS reset and optimization styles
+ * Author: Andriy Ovcharov
+ * E-mail: ovcharovcoder@gmail.com
+ * GitHub: https://github.com/ovcharovcoder/optimize.css
+ * Build date: 25.02.2025
+ * License: MIT
+ */
 
 /* Root variables */
 :root {
-    --main-bg-color: #fff;
-    --main-text-color: #000;
-    --link-hover-color: #ff9;
-    --font-family-base: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    font-size: 1rem;
+	--main-bg-color: #fff;
+	--main-text-color: #000;
+	--link-hover-color: #ff9;
+	--focus-outline-color: #007bff;
+	--focus-background-color: #e3f2fd;
+	--focus-border-color: #28a745;
+	--font-family-base: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	font-size: 1rem;
 }
 
 /* Universal box-sizing */
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 /* HTML defaults */
 html {
-    overflow-wrap: break-word;
-    scroll-behavior: smooth;
-    touch-action: manipulation;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -ms-touch-action: manipulation;
+	overflow-wrap: break-word;
+	scroll-behavior: smooth;
+	touch-action: manipulation;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	-ms-touch-action: manipulation;
 }
 
 /* Body defaults */
 body {
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    font-family: var(--font-family-base);
-    line-height: 1.5;
-    letter-spacing: 0.01em;
-    background: var(--main-bg-color);
-    color: var(--main-text-color);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	font-family: var(--font-family-base);
+	line-height: 1.5;
+	letter-spacing: 0.01em;
+	background: var(--main-bg-color);
+	color: var(--main-text-color);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Reset common elements */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 }
 
 /* Block elements */
-article, aside, details, figcaption, figure, picture, footer, header, hgroup, main, nav, section {
-    display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+picture,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+	display: block;
 }
 
 /* Font styles */
-address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, var {
-    font-weight: 400;
-    font-style: normal;
-    font-optical-sizing: auto;
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th,
+var {
+	font-weight: 400;
+	font-style: normal;
+	font-optical-sizing: auto;
 }
 
 /* Form elements */
-button, input, optgroup, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: 1.2;
-    margin: 0;
-    background: none;
-    border: none;
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.2;
+	margin: 0;
+	background: none;
+	border: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 /* Media elements */
-picture, img, video, embed, iframe, object {
-    max-width: 100%;
-    height: auto;
+picture,
+img,
+video,
+embed,
+iframe,
+object {
+	max-width: 100%;
+	height: auto;
+}
+
+img {
+	vertical-align: middle;
+}
+
+svg {
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* Buttons and links */
-button, input[type='submit'] {
-    display: inline-block;
-    box-shadow: none;
-    cursor: pointer;
+button,
+input[type='submit'] {
+	display: inline-block;
+	box-shadow: none;
+	cursor: pointer;
 }
 
 a {
-    background-color: transparent;
-    font-size: inherit;
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
-    line-height: inherit;
+	background-color: transparent;
+	font-size: inherit;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	line-height: inherit;
 }
 
-a:focus, a:active {
-    outline: none;
+/* Outline */
+a:focus {
+	outline: 2px solid var(--link-hover-color);
+	outline-offset: 4px;
+	text-decoration: underline;
+}
+
+button:focus {
+	outline: 2px dashed var(--main-text-color);
+	outline-offset: 4px;
+	background-color: var(--link-hover-color);
+	color: var(--main-text-color);
+}
+
+input:focus {
+	outline: 2px solid var(--link-hover-color);
+	outline-offset: 2px;
+	border-color: var(--link-hover-color);
+}
+
+input[type='submit']:focus,
+input[type='button']:focus {
+	outline: 2px dashed var(--main-text-color);
+	outline-offset: 4px;
+	background-color: var(--link-hover-color);
+	color: var(--main-text-color);
+}
+
+textarea:focus {
+	outline: 2px solid var(--link-hover-color);
+	outline-offset: 2px;
+	border-color: var(--link-hover-color);
+}
+
+textarea {
+	resize: vertical;
 }
 
 /* Lists */
-ul, ol {
-    list-style: none;
+ul,
+ol {
+	list-style: none;
 }
 
 /* Misc */
 hr {
-    background-color: #ccc;
-    border: 0;
-    height: 1px;
-    margin-bottom: 1.5em;
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
 }
 
 input::-ms-clear {
-    display: none;
+	display: none;
 }
 
 mark {
-    background-color: var(--link-hover-color);
-    color: var(--main-text-color);
-    font-style: italic;
-    font-weight: 700;
+	background-color: var(--link-hover-color);
+	color: var(--main-text-color);
+	font-style: italic;
+	font-weight: 700;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0 0 1.5em;
-    width: 100%;
-}
-
-textarea {
-    overflow: auto;
-    resize: none;
-    width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 1.5em;
+	width: 100%;
 }
 
 [hidden] {
-    display: none;
+	display: none;
 }
 
 [type='search'] {
-    outline-offset: -2px;
-    -webkit-appearance: textfield;
+	outline-offset: -2px;
+	-webkit-appearance: textfield;
 }
 
-button:focus, input:focus, a:focus {
-    outline: 2px dashed #333;
-    outline-offset: 4px;
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+legend {
+	padding: 0;
 }
