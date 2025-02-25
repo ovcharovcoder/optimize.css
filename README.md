@@ -36,7 +36,7 @@
   <li>Download the file from the GitHub repository: <br> <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Optimize.css</a> (full version) <br> <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize_min.css">Optimize.min.css</a> (minified version) </li> 
   <li>Add it to your project by linking in your HTML file: <br><code>&lt;link rel="stylesheet" href="optimize.css"&gt;</code> </li> 
   <li>Customize the <code>:root</code> variables or use it as is.</li>
-<li>You can include `optimize.css` in your project via CDN. Here is the link:<code><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovcharovcoder/optimize.css@main/optimize_min.css"></code></li>
+<li>You can include `optimize.min.css` in your project via CDN. Here is the link:<code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovcharovcoder/optimize.css@main/optimize_min.css"&gt</code></li>
 </ol>
 <p><b>Enjoy faster, cleaner, and more efficient web development with Optimize.css! 🚀</b></p>
 <hr>
