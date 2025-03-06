@@ -42,5 +42,5 @@
 <hr>
 
 <div>
-  <img src="optimize.webp" style="width: 400px;">
+  <img src="optimize-img.webp" style="width: 400px;">
 </div>
