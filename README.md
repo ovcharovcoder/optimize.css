@@ -35,7 +35,7 @@
 
 <h2>How to Use</h2> 
 <ol> 
-  <li><b>Download the file from the GitHub repository:</b><br> <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">Optimize.css</a> (full version) <br> <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize_min.css">optimize.min.css</a> (minified version) </li> 
+  <li><b>Download the file from the GitHub repository:</b><br> <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">optimize.css</a> (full version) <br> <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize_min.css">optimize.min.css</a> (minified version) </li> 
   <li><b>Add it to your project by linking in your HTML file:</b><br><code>&lt;link rel="stylesheet" href="optimize.css"&gt;</code> or <code>&lt;link rel="stylesheet" href="optimize.min.css"&gt;</code> </li> 
   <li><b>Customize the <code>:root</code> variables</b> or use it as-is to fit your project needs.</li>
 <li><b>Use the minified version via CDN.</b> You can also include "optimize.min.css" directly from the CDN:<br><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovcharovcoder/optimize.css@main/optimize_min.css"&gt</code></li>
