@@ -19,6 +19,7 @@
 	--main-bg-color: #fff;
 	--main-text-color: #000;
 	--link-hover-color: #007bff;
+	--gray-line-color: #ccc;
 	--focus-outline-color: #0056b3;
 	--focus-background-color: #e3f2fd;
 	--focus-border-color: #28a745;
@@ -208,7 +209,7 @@ ol {
 /* --- Misc --- */
 /* Handle miscellaneous element styles, including table and hidden elements */
 hr {
-	background-color: #ccc;
+	background-color: var(--gray-line-color); 
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
