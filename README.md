@@ -39,7 +39,7 @@
   <li><b>Add it to your project by linking in your HTML file:</b><br><code>&lt;link rel="stylesheet" href="optimize.css"&gt;</code> or <code>&lt;link rel="stylesheet" href="optimize_min.css"&gt;</code> </li> 
   <li><b>Customize the <code>:root</code> variables</b> or use it as-is to fit your project needs.</li>
 <li><b>Include via CDN:</b><br> 
-- For the minified version:<br><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovcharovcoder/optimize.css@main/optimize_min.css"&gt</code></li><br>
+- For the minified version:<br><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovcharovcoder/optimize.css@main/optimize_min.css"&gt</code></li>
 - For the full version:<br><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ovcharovcoder/optimize.css@refs/heads/main/optimize.css"&gt</code></li>
 </ol>
 <p><b>Enjoy faster, cleaner, and more efficient web development with Optimize.css! 🚀</b></p>
