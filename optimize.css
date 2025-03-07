@@ -253,21 +253,21 @@ legend {
 /* --- Dark mode support --- */
 /* Apply specific styles for users who prefer dark mode */
 @media (prefers-color-scheme: dark) {
-	:root {
-		--main-bg-color: #121212;
-		--main-text-color: #fff;
-		--link-hover-color: #1e90ff;
-		--focus-outline-color: #81c784;
-	}
+:root {
+	--main-bg-color: #121212;
+	--main-text-color: #fff;
+	--link-hover-color: #1e90ff;
+	--focus-outline-color: #81c784;
+}
 
-	/* Dark mode styling for highlighted text */
-	mark {
-		background-color: #333;
-	}
+/* Dark mode styling for highlighted text */
+mark {
+	background-color: #333;
+}
 
-	/* Adjust placeholder color for dark mode */
-	input::placeholder,
-	textarea::placeholder {
-		color: rgba(200, 200, 200, 1);
-	}
+/* Adjust placeholder color for dark mode */
+input::placeholder,
+textarea::placeholder {
+	color: rgba(200, 200, 200, 1);
+}
 }
