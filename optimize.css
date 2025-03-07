@@ -4,55 +4,61 @@
  * Author: Andriy Ovcharov
  * E-mail: ovcharovcoder@gmail.com
  * GitHub: https://github.com/ovcharovcoder/optimize.css
- * Build date: 25.02.2025
+ * Build date: 07.03.2025
  * License: MIT
  */
 
 /* Root variables */
+/* Define basic color and font variables for global use */
 :root {
 	--main-bg-color: #fff;
 	--main-text-color: #000;
-	--link-hover-color: #ff9;
-	--focus-outline-color: #007bff;
+	--link-hover-color: #007bff;
+	--focus-outline-color: #0056b3;
 	--focus-background-color: #e3f2fd;
 	--focus-border-color: #28a745;
-	--font-family-base: Arial, Helvetica, sans-serif;
+	--font-family-base: system-ui, -apple-system, Arial, Helvetica, sans-serif;
 	box-sizing: border-box;
 	font-size: 1rem;
 }
 
-/* Universal box-sizing */
+/* --- Universal box-sizing --- */
+/* Apply box-sizing rule globally to ensure consistent layout calculations */
 *,
 *::after,
 *::before {
 	box-sizing: inherit;
 }
 
-/* HTML defaults */
+/* --- HTML defaults --- */
+/* Set fundamental behavior for the HTML document, including typography and scrolling */
 html {
 	overflow-wrap: break-word;
 	scroll-behavior: smooth;
+	accent-color: var(--focus-outline-color);
+	color-scheme: light dark;
 	touch-action: manipulation;
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-rendering: optimizeLegibility;
+	text-rendering: auto;
 	-ms-touch-action: manipulation;
 }
 
-/* Body defaults */
+/* --- Body defaults --- */
+/* Set defaults for the body element, including text rendering, font-family, and background */
 body {
-	scroll-behavior: smooth;
+	overscroll-behavior: none;
 	text-rendering: optimizeSpeed;
 	font-family: var(--font-family-base);
 	line-height: 1.5;
-	letter-spacing: 0.01em;
 	background: var(--main-bg-color);
 	color: var(--main-text-color);
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* Reset common elements */
+/* --- Reset common elements --- */
+/* Reset margins, padding, borders, and outline for all elements to start with a clean slate */
 * {
 	margin: 0;
 	padding: 0;
@@ -62,35 +68,14 @@ body {
 	vertical-align: baseline;
 }
 
-/* Block elements */
-article,
-aside,
-details,
-figcaption,
-figure,
-picture,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
-	display: block;
-}
-
-/* Font styles */
+/* --- Font styles --- */
+/* Standardize font styling for various text elements */
 address,
 caption,
 cite,
 code,
 dfn,
 em,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 strong,
 th,
 var {
@@ -99,7 +84,22 @@ var {
 	font-optical-sizing: auto;
 }
 
-/* Form elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	text-rendering: optimizeLegibility;
+}
+
+/* --- Form elements --- */
+/* Standardize form element styles for consistency across browsers */
 button,
 input,
 optgroup,
@@ -111,17 +111,32 @@ textarea {
 	margin: 0;
 	background: none;
 	border: none;
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
 }
 
-/* Media elements */
+select {
+	appearance: auto;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: rgba(102, 102, 102, 1);
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+	background: var(--focus-outline-color);
+}
+
+input[type='range']::-webkit-slider-thumb {
+	background: var(--focus-outline-color);
+	border-radius: 50%;
+}
+
+/* --- Media elements --- */
+/* Ensure media elements (images, videos, etc.) are responsive */
 picture,
 img,
 video,
 embed,
-iframe,
 object {
 	max-width: 100%;
 	height: auto;
@@ -131,12 +146,17 @@ img {
 	vertical-align: middle;
 }
 
+iframe {
+	width: 100%;
+}
+
 svg {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-/* Buttons and links */
+/* --- Buttons and links --- */
+/* Style buttons and links with a uniform appearance */
 button,
 input[type='submit'] {
 	display: inline-block;
@@ -153,51 +173,39 @@ a {
 	line-height: inherit;
 }
 
-/* Outline */
-a:focus {
-	outline: 2px solid var(--link-hover-color);
-	outline-offset: 4px;
-	text-decoration: underline;
-}
-
-button:focus {
-	outline: 2px dashed var(--main-text-color);
-	outline-offset: 4px;
-	background-color: var(--link-hover-color);
-	color: var(--main-text-color);
-}
-
-input:focus {
-	outline: 2px solid var(--link-hover-color);
+/* --- Outline --- */
+/* Add clear outlines for focusable elements to improve accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+[type='submit']:focus,
+[type='button']:focus {
+	outline: 2px solid var(--focus-outline-color);
 	outline-offset: 2px;
-	border-color: var(--link-hover-color);
 }
 
-input[type='submit']:focus,
-input[type='button']:focus {
-	outline: 2px dashed var(--main-text-color);
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+	outline: 2px solid var(--focus-outline-color);
 	outline-offset: 4px;
-	background-color: var(--link-hover-color);
-	color: var(--main-text-color);
-}
-
-textarea:focus {
-	outline: 2px solid var(--link-hover-color);
-	outline-offset: 2px;
-	border-color: var(--link-hover-color);
 }
 
 textarea {
 	resize: vertical;
 }
 
-/* Lists */
+/* --- Lists --- */
+/* Remove default list styling for ordered and unordered lists */
 ul,
 ol {
 	list-style: none;
 }
 
-/* Misc */
+/* --- Misc --- */
+/* Handle miscellaneous element styles, including table and hidden elements */
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -210,10 +218,10 @@ input::-ms-clear {
 }
 
 mark {
-	background-color: var(--link-hover-color);
-	color: var(--main-text-color);
-	font-style: italic;
-	font-weight: 700;
+	background-color: var(--focus-background-color);
+	color: inherit;
+	font-weight: bold;
+	font-style: normal;
 }
 
 table {
@@ -240,4 +248,26 @@ fieldset {
 
 legend {
 	padding: 0;
+}
+
+/* --- Dark mode support --- */
+/* Apply specific styles for users who prefer dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--main-bg-color: #121212;
+		--main-text-color: #fff;
+		--link-hover-color: #1e90ff;
+		--focus-outline-color: #81c784;
+	}
+
+	/* Dark mode styling for highlighted text */
+	mark {
+		background-color: #333;
+	}
+
+	/* Adjust placeholder color for dark mode */
+	input::placeholder,
+	textarea::placeholder {
+		color: rgba(200, 200, 200, 1);
+	}
 }
