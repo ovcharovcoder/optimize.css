@@ -100,14 +100,6 @@ p {
 	text-rendering: optimizeLegibility;
 }
 
-/* Container */
-.container {
-	width: 100%;
-	max-width: 1230px; /* Optional: Set a max-width for large screens */
-	margin: 0 auto;
-	padding: 0 0.9375rem; /* Horizontal padding (15px) for spacing inside the container */
-}
-
 /* --- Form elements --- */
 /* Standardize form element styles for consistency across browsers */
 button,
