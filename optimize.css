@@ -259,11 +259,12 @@ legend {
 	--main-text-color: #fff;
 	--link-hover-color: #1e90ff;
 	--focus-outline-color: #81c784;
+	--secondary-bg-color: #333;
 }
 
 /* Dark mode styling for highlighted text */
 mark {
-	background-color: #333;
+	background-color: var(--secondary-bg-color);
 }
 
 /* Adjust placeholder color for dark mode */
