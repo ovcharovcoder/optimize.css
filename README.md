@@ -3,7 +3,7 @@
 <ul>
   <li><b>Author:</b> Andriy Ovcharov</li>
   <li><b>Email:</b> ovcharovcoder@gmail.com</li>
-  <li><b>Build date:</b> 25.02.2025</li>
+  <li><b>Build date:</b> 07.03.2025</li>
 </ul> 
 
 <h2>About</h2> 
