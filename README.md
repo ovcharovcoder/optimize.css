@@ -46,7 +46,6 @@
   </li>
 </ol>
 <p><b>Enjoy faster, cleaner, and more efficient web development with Optimize.css! 🚀</b></p>
-<hr>
 
 ## ☕ Enjoyed the Optimize.css? 
 Treat the author to a coffee via [PayPal](https://www.paypal.com/donate/?business=datoshcode@gmail.com)
