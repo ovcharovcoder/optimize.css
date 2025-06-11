@@ -54,3 +54,7 @@ Treat the author to a coffee via [PayPal](https://www.paypal.com/donate/?busines
 <div>
   <img src="optimize-img.webp" style="width: 400px;">
 </div>
+
+ ## Ліцензія
+
+<a href="LICENSE">MIT LICENSE</a>
