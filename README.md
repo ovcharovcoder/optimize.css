@@ -3,8 +3,8 @@
 <ul>
   <li><b>Author:</b> Andriy Ovcharov</li>
   <li><b>Email:</b> ovcharovcoder@gmail.com</li>
-  <li><b>Build date:</b> 07.03.2025</li>
-  <li><b>Version:</b> 1.0.0</li>
+  <li><b>Build date:</b> 20.09.2025</li>
+  <li><b>Version:</b> 1.0.1</li>
   <li><b>License:</b> MIT</li>
 </ul> 
 
