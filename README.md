@@ -50,11 +50,6 @@
 ## ☕ Enjoyed the Optimize.css? 
 Treat the author to a coffee via [PayPal](https://www.paypal.com/donate/?business=datoshcode@gmail.com)
 
-
-<div>
-  <img src="optimize.png" style="width: 400px;">
-</div>
-
  ## LICENSE
 
 <a href="LICENSE">MIT LICENSE</a>
