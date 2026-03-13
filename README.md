@@ -1,10 +1,10 @@
 <h1>OPTIMIZE CSS</h1> 
 <h2>A powerful reset and optimization CSS file for modern web development.</h2> 
 <ul>
-  <li><b>Author:</b> Andriy Ovcharov</li>
+  <li><b>Author:</b> Andrii Ovcharov</li>
   <li><b>Email:</b> ovcharovcoder@gmail.com</li>
-  <li><b>Build date:</b> 20.09.2025</li>
-  <li><b>Version:</b> 1.0.1</li>
+  <li><b>Build date:</b> 13.03.2026</li>
+  <li><b>Version:</b> 1.0.2</li>
   <li><b>License:</b> MIT</li>
 </ul> 
 
