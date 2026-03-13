@@ -1,11 +1,11 @@
 /* --- optimize.css --- */
 /*
  * About: Minimal CSS reset and foundation styles
- * Author: Andriy Ovcharov
+ * Author: Andrii Ovcharov
  * E-mail: ovcharovcoder@gmail.com
  * GitHub: https://github.com/ovcharovcoder/optimize.css
- * Build date: 20.09.2025
- * Version: 1.0.1
+ * Build date: 13.03.2026
+ * Version: 1.0.2
  * License: MIT
  * Description: A clean and universal CSS reset.
  *              Provides consistent default styling across browsers,
@@ -17,7 +17,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -29,12 +31,25 @@ html {
 body {
   min-height: 100%;
   line-height: 1.5;
-  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    Arial,
+    Helvetica,
+    sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font: inherit;
   font-weight: inherit;
 }
@@ -43,16 +58,23 @@ p {
   margin-bottom: 1em;
 }
 
-strong, b {
+strong,
+b {
   font-weight: 700;
 }
 
-address, cite, code, dfn, em, var {
+address,
+cite,
+code,
+dfn,
+em,
+var {
   font-style: normal;
   font-weight: 400;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -61,7 +83,10 @@ a {
   color: inherit;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font: inherit;
   margin: 0;
   border: none;
@@ -86,7 +111,9 @@ textarea {
   resize: vertical;
 }
 
-select, input[type='checkbox'], input[type='radio'] {
+select,
+input[type='checkbox'],
+input[type='radio'] {
   appearance: auto;
 }
 
@@ -103,11 +130,17 @@ input::-ms-clear {
   display: none;
 }
 
-button, [type='button'], [type='submit'] {
+button,
+[type='button'],
+[type='submit'] {
   cursor: pointer;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
   height: auto;
@@ -124,7 +157,8 @@ table {
   width: 100%;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 0.5em;
 }
@@ -133,7 +167,8 @@ th, td {
   display: none !important;
 }
 
-fieldset, legend {
+fieldset,
+legend {
   border: 0;
   margin: 0;
   padding: 0;
@@ -146,4 +181,25 @@ details {
 summary {
   display: list-item;
   cursor: pointer;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family:
+    ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light dark;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
 }
