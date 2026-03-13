@@ -52,7 +52,7 @@ Treat the author to a coffee via [PayPal](https://www.paypal.com/donate/?busines
 
 
 <div>
-  <img src="optimize.webp" style="width: 400px;">
+  <img src="optimize.png" style="width: 400px;">
 </div>
 
  ## LICENSE
