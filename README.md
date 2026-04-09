@@ -72,5 +72,15 @@ The goal is simple: eliminate noise, preserve native behavior where it matters, 
 or
 <link rel="stylesheet" href="optimize_min.css">
 ```
+---
+
+## 👤 Author
+
+<img src="https://raw.githubusercontent.com/ovcharovcoder/neo-serene-theme/main/images/avatar.png" alt="Andrii Ovcharov" width="60px">
+
+**Andrii Ovcharov**  
+📧 ovcharovcoder@gmail.com
+
+---
 
 LICENSE <a href="LICENSE">MIT LICENSE</a>
