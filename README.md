@@ -65,8 +65,9 @@ The goal is simple: eliminate noise, preserve native behavior where it matters, 
 ## How to Use
 - Download the file from the GitHub repository:</b>
 <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize.css">optimize.css</a> (full version)<br>
+or<br>
 <a href="https://raw.githubusercontent.com/datoshcode/optimize.css/main/optimize_min.css">optimize_min.css</a> (minified version)<br>
-Add it to your project by linking in your HTML file:
+- Add it to your project by linking in your HTML file:
 ```bash
 <link rel="stylesheet" href="optimize.css">
 or
