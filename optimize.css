@@ -1,201 +1,112 @@
-/* --- optimize.css --- */
-/*
- * About: Minimal CSS reset and foundation styles
- * Author: Andrii Ovcharov
- * E-mail: ovcharovcoder@gmail.com
- * GitHub: https://github.com/ovcharovcoder/optimize.css
- * Build date: 13.03.2026
- * Version: 1.0.2
- * License: MIT
- * Description: A clean and universal CSS reset.
- *              Provides consistent default styling across browsers,
- *              including basic typography, forms, media, tables, and accessibility fixes.
- *              No colors, hover effects, or utility classes are included.
- */
+/* --- optimize.scss --- */
+/* Minimal Modern CSS Reset — Clean & Stable */
 
-html {
-  box-sizing: border-box;
+/* ---------- Root ---------- */
+:root {
+  font-size: 1rem;
 }
 
+/* ---------- Box sizing ---------- */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  font-size: 100%;
 }
 
+/* ---------- HTML ---------- */
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* ---------- Body ---------- */
 body {
-  min-height: 100%;
-  line-height: 1.5;
   font-family:
     system-ui,
     -apple-system,
-    Arial,
+    'Segoe UI',
+    Roboto,
     Helvetica,
+    Arial,
     sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
-  text-rendering: optimizeLegibility;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* ---------- Media ---------- */
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Forms ---------- */
+button,
+input,
+textarea,
+select {
   font: inherit;
-  font-weight: inherit;
 }
 
-strong,
-b {
-  font-weight: 700;
+/* ---------- Buttons ---------- */
+button {
+  cursor: pointer;
 }
 
-address,
-cite,
-code,
-dfn,
-em,
-var {
-  font-style: normal;
-  font-weight: 400;
+button:disabled {
+  cursor: not-allowed;
 }
 
-ul,
-ol {
-  list-style: none;
-}
-
+/* ---------- Links ---------- */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-button,
-input,
-select,
-textarea {
-  font: inherit;
-  margin: 0;
-  border: none;
-  background: none;
-  color: inherit;
+a:not([class]) {
+  text-decoration-skip-ink: auto;
 }
 
-button:focus-visible,
-input:focus-visible,
-select:focus-visible,
-textarea:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
+/* ---------- Lists ---------- */
+ul,
+ol {
+  list-style: none;
 }
 
-:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-textarea {
-  resize: vertical;
-}
-
-select,
-input[type='checkbox'],
-input[type='radio'] {
-  appearance: auto;
-}
-
-::placeholder {
-  color: inherit;
-}
-
-input[type='search'] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button,
-[type='button'],
-[type='submit'] {
-  cursor: pointer;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-iframe {
-  width: 100%;
-  border: none;
-}
-
+/* ---------- Tables ---------- */
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
 }
 
-th,
-td {
-  text-align: left;
-  padding: 0.5em;
+/* ---------- Accessibility ---------- */
+:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
 }
 
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ---------- Misc ---------- */
 [hidden] {
-  display: none !important;
+  display: none;
 }
 
-fieldset,
-legend {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-details {
-  display: block;
-}
-
-summary {
-  display: list-item;
-  cursor: pointer;
-}
-
-code,
-kbd,
-samp,
-pre {
-  font-family:
-    ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
-  font-size: 0.9em;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: light dark;
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
