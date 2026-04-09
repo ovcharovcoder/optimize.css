@@ -9,7 +9,7 @@
 - **Author:** Andrii Ovcharov  
 - **Email:** ovcharovcoder@gmail.com  
 - **Build date:** 09.04.2026  
-- **Version:** 3.0  
+- **Version:** 2.0  
 - **License:** MIT  
 
 ---
@@ -42,15 +42,6 @@ The goal is simple: eliminate noise, preserve native behavior where it matters, 
 - Ensures form elements inherit fonts  
 - Provides accessible focus styles  
 - Respects `prefers-reduced-motion`  
-
----
-
-## ❌ What It Does NOT Do
-
-- Does not style UI components (buttons, inputs, tables, etc.)  
-- Does not override heading sizes or typography hierarchy  
-- Does not enforce layout systems (grid, container, spacing)  
-- Does not include design tokens or CSS variables  
 
 ---
 
