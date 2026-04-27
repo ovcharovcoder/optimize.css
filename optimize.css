@@ -52,13 +52,10 @@ p {
 
 /* ---------- Media ---------- */
 img,
-video {
+video,
+picture {
   max-width: 100%;
   height: auto;
-  display: block;
-}
-
-picture {
   display: block;
 }
 
@@ -68,6 +65,7 @@ picture img {
 
 svg {
   display: inline-block;
+  max-width: 100%;
 }
 
 /* ---------- Forms ---------- */
