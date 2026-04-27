@@ -1,10 +1,6 @@
 /* --- optimize.scss --- */
 /* Minimal Modern CSS Reset — Clean & Stable */
-
-/* ---------- Root ---------- */
-:root {
-  font-size: 1rem;
-}
+/* Author: Andrii Ovcharov | License: MIT | Version: 3.0.0 */
 
 /* ---------- Box sizing ---------- */
 *,
@@ -17,13 +13,13 @@
 
 /* ---------- HTML ---------- */
 html {
-  height: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
 /* ---------- Body ---------- */
 body {
+  min-height: 100vh;
   font-family:
     system-ui,
     -apple-system,
@@ -33,17 +29,45 @@ body {
     Arial,
     sans-serif;
   line-height: 1.5;
+  overflow-wrap: break-word;
+  text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ---------- Typography ---------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
 /* ---------- Media ---------- */
 img,
-video,
-canvas,
-svg {
+video {
   max-width: 100%;
   height: auto;
+  display: block;
+}
+
+picture {
+  display: block;
+}
+
+picture img {
+  width: 100%;
+}
+
+svg {
+  display: inline-block;
 }
 
 /* ---------- Forms ---------- */
@@ -52,6 +76,20 @@ input,
 textarea,
 select {
   font: inherit;
+}
+
+input,
+textarea {
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type='search'] {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* ---------- Buttons ---------- */
@@ -95,12 +133,28 @@ table {
   outline: none;
 }
 
+:target {
+  scroll-margin-top: 1rem;
+}
+
+/* ---------- Selection ---------- */
+::selection {
+  background-color: #007bff;
+  color: #fff;
+}
+
 /* ---------- Misc ---------- */
 [hidden] {
   display: none;
 }
 
 /* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -108,5 +162,6 @@ table {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
