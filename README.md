@@ -11,7 +11,7 @@ A minimal, modern CSS reset for stable and predictable UI development.
 | **Author** | Andrii Ovcharov |
 | **Email** | [ovcharovcoder@gmail.com](mailto:ovcharovcoder@gmail.com) |
 | **Version** | 3.0 |
-| **Build date** | 24.04.2026 |
+| **Build date** | 27.04.2026 |
 | **License** | [MIT](LICENSE) |
 
 ---
