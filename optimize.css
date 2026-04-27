@@ -46,10 +46,6 @@ h6 {
   text-rendering: optimizeLegibility;
 }
 
-p {
-  overflow-wrap: break-word;
-}
-
 /* ---------- Media ---------- */
 img,
 video,
