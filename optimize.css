@@ -78,11 +78,6 @@ select {
   font: inherit;
 }
 
-input,
-textarea {
-  padding: 0;
-}
-
 textarea {
   resize: vertical;
 }
